@@ -62,14 +62,8 @@ class OnBoardingScreen extends StatelessWidget {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  padding: EdgeInsets.all(16),
+                  padding: const EdgeInsets.all(16),
                   fixedSize: Size(width * 0.6, height * 0.07),
-                  textStyle: GoogleFonts.montserrat(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  shadowColor: Colors.blue,
-                  shape: StadiumBorder(),
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -79,6 +73,7 @@ class OnBoardingScreen extends StatelessWidget {
                       style: GoogleFonts.montserrat(
                         fontSize: 18,
                         fontWeight: FontWeight.w700,
+                        color: Colors.red,
                       ),
                     ),
                     SizedBox(
@@ -87,6 +82,7 @@ class OnBoardingScreen extends StatelessWidget {
                     const Icon(
                       Icons.arrow_forward,
                       size: 20,
+                      color: Colors.red,
                     ),
                   ],
                 ),

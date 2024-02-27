@@ -2,12 +2,17 @@ import 'package:codehackathon_2024/src/consts/home_card.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
   @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
   Widget build(BuildContext context) {
-    // var height = MediaQuery.of(context).size.height;
+    var height = MediaQuery.of(context).size.height;
     // var width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Colors.white,
@@ -30,12 +35,6 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               HomeCard(
-                title: "Locate a Blood Drive",
-                description: "Find a blood drive near you.",
-                button: "Get Started",
-                image: 'assets/images/home_image1.png',
-              ),
-              HomeCard(
                 title: "Locate Nearby Bloodbanks",
                 description: "Find Nearby BloodBank.",
                 button: "Get Started",
@@ -47,8 +46,21 @@ class HomePage extends StatelessWidget {
                 button: "Get Started",
                 image: 'assets/images/home_image2.png',
               ),
+              SizedBox(height: height * 0.15)
             ],
           ),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () {
+          ScaffoldMessenger.of(context)
+              .showSnackBar(const SnackBar(content: Text('Make an Request')));
+        },
+        icon: const Icon(Icons.add),
+        label: Text(
+          'Request',
+          style: GoogleFonts.montserrat(
+              fontSize: 13.0, fontWeight: FontWeight.w600),
         ),
       ),
     );

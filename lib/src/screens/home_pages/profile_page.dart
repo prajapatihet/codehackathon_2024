@@ -25,95 +25,97 @@ class ProfilePage extends StatelessWidget {
         automaticallyImplyLeading: false,
         surfaceTintColor: Colors.transparent,
       ),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: Column(
-            children: [
-              Align(
-                alignment: Alignment.center,
-                child: Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(width: 5, color: Colors.greenAccent),
-                    borderRadius: BorderRadius.circular(100),
-                  ),
-                  child: Image.asset(
-                    'assets/images/user1.png',
-                    width: width * 0.3,
-                  ),
-                ),
-              ),
-              SizedBox(
-                height: height * 0.005,
-              ),
-              Align(
-                alignment: Alignment.center,
-                child: Text(
-                  'Hetkumar Prajapati',
-                  style: GoogleFonts.montserrat(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w800,
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: [
+                Align(
+                  alignment: Alignment.center,
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(width: 5, color: Colors.greenAccent),
+                      borderRadius: BorderRadius.circular(100),
+                    ),
+                    child: Image.asset(
+                      'assets/images/user1.png',
+                      width: width * 0.3,
+                    ),
                   ),
                 ),
-              ),
-              TextButton.icon(
-                onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text('Your rating $rating!!!')));
-                },
-                icon: const Icon(
-                  Icons.star,
-                  color: Colors.red,
-                  size: 19,
+                SizedBox(
+                  height: height * 0.005,
                 ),
-                label: Text(
-                  rating,
-                  style: GoogleFonts.montserrat(
-                    fontSize: 17,
-                    fontWeight: FontWeight.w500,
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    'Hetkumar Prajapati',
+                    style: GoogleFonts.montserrat(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
                 ),
-              ),
-              Options(
-                option: 'More Information',
-                icon: const Icon(Icons.person),
-                onPressed: () {},
-              ),
-              Options(
-                option: 'Edit Profile',
-                icon: const Icon(Icons.edit_sharp),
-                onPressed: () {},
-              ),
-              Options(
-                option: 'Login and security',
-                icon: const Icon(Icons.security_rounded),
-                onPressed: () {},
-              ),
-              Options(
-                option: 'Data and Privacy',
-                icon: const Icon(Icons.privacy_tip),
-                onPressed: () {},
-              ),
-              Options(
-                option: 'Give Feedback',
-                icon: const Icon(Icons.feedback_sharp),
-                onPressed: () {},
-              ),
-              SizedBox(height: height * 0.1),
-              InkWell(
-                onTap: () {
-                  Navigator.pop(context);
-                },
-                child: Text(
-                  'Sign-Out',
-                  style: GoogleFonts.montserrat(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
+                TextButton.icon(
+                  onPressed: () {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text('Your rating $rating!!!')));
+                  },
+                  icon: const Icon(
+                    Icons.star,
                     color: Colors.red,
+                    size: 19,
+                  ),
+                  label: Text(
+                    rating,
+                    style: GoogleFonts.montserrat(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w500,
+                    ),
                   ),
                 ),
-              ),
-            ],
+                Options(
+                  option: 'More Information',
+                  icon: const Icon(Icons.person),
+                  onPressed: () {},
+                ),
+                Options(
+                  option: 'Edit Profile',
+                  icon: const Icon(Icons.edit_sharp),
+                  onPressed: () {},
+                ),
+                Options(
+                  option: 'Login and security',
+                  icon: const Icon(Icons.security_rounded),
+                  onPressed: () {},
+                ),
+                Options(
+                  option: 'Data and Privacy',
+                  icon: const Icon(Icons.privacy_tip),
+                  onPressed: () {},
+                ),
+                Options(
+                  option: 'Give Feedback',
+                  icon: const Icon(Icons.feedback_sharp),
+                  onPressed: () {},
+                ),
+                SizedBox(height: height * 0.05),
+                InkWell(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Text(
+                    'Sign-Out',
+                    style: GoogleFonts.montserrat(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

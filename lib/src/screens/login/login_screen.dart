@@ -12,6 +12,14 @@ class LogInScreen extends StatefulWidget {
 class _LogInScreenState extends State<LogInScreen> {
   final TextEditingController email = TextEditingController();
   final TextEditingController password = TextEditingController();
+
+  @override
+  void dispose() {
+    email.dispose();
+    password.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
@@ -22,6 +30,7 @@ class _LogInScreenState extends State<LogInScreen> {
           padding: const EdgeInsets.all(18.0),
           child: Column(
             children: [
+              SizedBox(height: height * 0.05),
               Image.asset('assets/images/logo.png', height: height * 0.08),
               SizedBox(
                 height: height * 0.01,
@@ -41,16 +50,17 @@ class _LogInScreenState extends State<LogInScreen> {
                 height: height * 0.01,
               ),
               textfield(
-                  hinttext: 'Username/Email',
+                  text: "Username/Email",
                   controller: email,
                   inputType: TextInputType.emailAddress),
               SizedBox(
                 height: height * 0.02,
               ),
               textfield(
-                hinttext: 'Password',
+                text: "Password",
                 controller: password,
                 inputType: TextInputType.visiblePassword,
+                obscuretext: true,
               ),
               SizedBox(
                 height: height * 0.01,
@@ -58,7 +68,10 @@ class _LogInScreenState extends State<LogInScreen> {
               Align(
                 alignment: Alignment.centerRight,
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+                        content: Text('Forgot Psssword Clicked')));
+                  },
                   child: Text(
                     'Forgot Password?',
                     style: GoogleFonts.montserrat(
@@ -98,39 +111,39 @@ class _LogInScreenState extends State<LogInScreen> {
     );
   }
 
-  TextField textfield({
-    required String hinttext,
+  TextFormField textfield({
     required TextEditingController controller,
     required TextInputType inputType,
+    bool obscuretext = false,
+    required String text,
   }) {
-    return TextField(
+    return TextFormField(
+      obscureText: obscuretext,
       keyboardType: inputType,
       controller: controller,
       style: const TextStyle(
         color: Colors.black,
       ),
       decoration: InputDecoration(
-        hintText: hinttext,
-        hintStyle: GoogleFonts.plusJakartaSans(
+        labelText: text,
+        labelStyle: GoogleFonts.montserrat(
             color: Color.fromARGB(255, 144, 140, 227),
             fontWeight: FontWeight.w400,
             fontSize: 15),
         isCollapsed: true,
         contentPadding:
             const EdgeInsets.symmetric(vertical: 17, horizontal: 15),
-        filled: true,
-        fillColor: Color.fromARGB(255, 211, 205, 205).withOpacity(0.3),
         errorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
-          borderSide: const BorderSide(color: Colors.red, width: 0.2),
+          borderSide: const BorderSide(color: Colors.red, width: 1),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(15),
-          borderSide: const BorderSide(color: Color(0xFFAC6FFA), width: 0.2),
+          borderSide: const BorderSide(color: Color(0xFFAC6FFA), width: 1),
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(15),
-          borderSide: const BorderSide(color: Colors.grey, width: 0.2),
+          borderSide: const BorderSide(color: Colors.grey, width: 1),
         ),
       ),
     );

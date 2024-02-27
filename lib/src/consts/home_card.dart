@@ -39,7 +39,7 @@ class HomeCard extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: height * 0.01,
+                height: height * 0.005,
               ),
               Text(
                 title,
@@ -64,7 +64,7 @@ class HomeCard extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(content: Text('Clicked  $title')));
+                          SnackBar(content: Text('Calling $title')));
                     },
                     child: Text(
                       button,
