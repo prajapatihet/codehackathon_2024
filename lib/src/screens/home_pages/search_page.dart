@@ -1,3 +1,4 @@
+import 'package:codehackathon_2024/src/screens/home_pages/filter/filter.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -26,44 +27,19 @@ class _SearchPageState extends State<SearchPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-          title: appBarTitle,
-          automaticallyImplyLeading: false,
-          actions: <Widget>[
-            IconButton(
-              icon: actionIcon,
+        title: appBarTitle,
+        automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
               onPressed: () {
-                setState(() {
-                  if (actionIcon.icon == Icons.search) {
-                    actionIcon = const Icon(Icons.close);
-                    appBarTitle = TextField(
-                      style: GoogleFonts.montserrat(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w500,
-                      ),
-                      decoration: InputDecoration(
-                        border: InputBorder.none,
-                        prefixIcon:
-                            const Icon(Icons.search, color: Colors.black),
-                        hintText: "Search...",
-                        hintStyle: GoogleFonts.montserrat(
-                          color: Colors.black54,
-                        ),
-                      ),
-                    );
-                  } else {
-                    actionIcon = const Icon(Icons.search, color: Colors.black);
-                    appBarTitle = Text(
-                      "Find Donor",
-                      style: GoogleFonts.montserrat(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    );
-                  }
-                });
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const FilterScreen()));
               },
-            ),
-          ]),
+              icon: actionIcon),
+        ],
+      ),
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(

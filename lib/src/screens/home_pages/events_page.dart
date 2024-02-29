@@ -61,7 +61,8 @@ class _EventsPageState extends State<EventsPage> {
                   ),
                 ),
                 builder: (BuildContext context) {
-                  return SizedBox.expand(
+                  return SizedBox(
+                    height: height * (4 / 5),
                     child: addEvent(height, context),
                   );
                 },
@@ -203,7 +204,7 @@ class _EventsPageState extends State<EventsPage> {
             height: height * 0.03,
           ),
           textfield(
-            prefixIcon: Icon(Icons.event_note),
+            prefixIcon: const Icon(Icons.event_note),
             text: 'Name of Event',
             inputType: TextInputType.text,
           ),
@@ -211,7 +212,7 @@ class _EventsPageState extends State<EventsPage> {
             height: height * 0.02,
           ),
           textfield(
-            prefixIcon: Icon(Icons.date_range),
+            prefixIcon: const Icon(Icons.date_range),
             text: 'Date',
             inputType: TextInputType.none,
             controller: datePicker,
@@ -237,7 +238,7 @@ class _EventsPageState extends State<EventsPage> {
             height: height * 0.02,
           ),
           textfield(
-              prefixIcon: Icon(Icons.access_time_filled),
+              prefixIcon: const Icon(Icons.access_time_filled),
               text: 'Time',
               inputType: TextInputType.none,
               controller: timePicker,
@@ -260,7 +261,7 @@ class _EventsPageState extends State<EventsPage> {
             height: height * 0.02,
           ),
           textfield(
-              prefixIcon: Icon(Icons.my_location),
+              prefixIcon: const Icon(Icons.my_location),
               text: 'Location',
               inputType: TextInputType.text),
           SizedBox(
@@ -275,7 +276,7 @@ class _EventsPageState extends State<EventsPage> {
             height: height * 0.01,
           ),
           textfield(
-              prefixIcon: Icon(Icons.location_on),
+              prefixIcon: const Icon(Icons.location_on),
               text: 'Choose on Map',
               inputType: TextInputType.text),
           SizedBox(

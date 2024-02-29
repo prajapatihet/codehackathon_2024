@@ -1,4 +1,5 @@
 import 'package:codehackathon_2024/src/consts/home_card.dart';
+import 'package:codehackathon_2024/src/screens/aboutdonating/main_about.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -39,12 +40,22 @@ class _HomePageState extends State<HomePage> {
                 description: "Find Nearby BloodBank.",
                 button: "Get Started",
                 image: 'assets/images/home_image1.png',
+                onPressed: () {
+                  ScaffoldMessenger.of(context)
+                      .showSnackBar(const SnackBar(content: Text('Calling')));
+                },
               ),
               HomeCard(
                 title: "Learn About Donating",
                 description: "Learn more about blood & \nplatelet donation.",
                 button: "Get Started",
                 image: 'assets/images/home_image2.png',
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const MainAboutScreen()));
+                },
               ),
               SizedBox(height: height * 0.15)
             ],

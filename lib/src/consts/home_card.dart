@@ -10,7 +10,7 @@ class HomeCard extends StatelessWidget {
     required this.description,
     required this.button,
     required this.image,
-    this.onPressed,
+    required this.onPressed,
   });
 
   @override
@@ -62,10 +62,7 @@ class HomeCard extends StatelessWidget {
                     ),
                   ),
                   ElevatedButton(
-                    onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(content: Text('Calling $title')));
-                    },
+                    onPressed: onPressed,
                     child: Text(
                       button,
                       style: GoogleFonts.montserrat(
