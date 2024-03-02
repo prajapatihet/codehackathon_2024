@@ -1,29 +1,19 @@
-import 'package:codehackathon_2024/src/screens/main_home/main_home.dart';
-import 'package:codehackathon_2024/src/screens/signup/sign_up_screen.dart';
+import 'package:codehackathon_2024/src/screens/login/login_screen.dart';
+import 'package:codehackathon_2024/src/screens/signup/more_info.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class LogInScreen extends StatefulWidget {
-  const LogInScreen({super.key});
+class SignUpScreen extends StatefulWidget {
+  const SignUpScreen({super.key});
 
   @override
-  State<LogInScreen> createState() => _LogInScreenState();
+  State<SignUpScreen> createState() => _SignUpScreenState();
 }
 
-class _LogInScreenState extends State<LogInScreen> {
+class _SignUpScreenState extends State<SignUpScreen> {
   final email = TextEditingController();
   final password = TextEditingController();
-
-  @override
-  void dispose() {
-    email.clear();
-    email.dispose();
-    password.clear();
-    password.dispose();
-    super.dispose();
-  }
-
+  final conpassword = TextEditingController();
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
@@ -33,16 +23,15 @@ class _LogInScreenState extends State<LogInScreen> {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              SizedBox(height: height * 0.15),
-              //Image.asset('assets/images/logo.png', height: height * 0.08),
-              // SizedBox(
-              //   height: height * 0.01,
-              // ),
+              SizedBox(
+                height: height * 0.05,
+              ),
               Align(
                 alignment: Alignment.topLeft,
                 child: Text(
-                  'Welcome back',
+                  'Register',
                   style: GoogleFonts.montserrat(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
@@ -51,7 +40,7 @@ class _LogInScreenState extends State<LogInScreen> {
                 ),
               ),
               SizedBox(
-                height: height * 0.01,
+                height: height * 0.03,
               ),
               textfield(
                   text: "Email",
@@ -67,39 +56,24 @@ class _LogInScreenState extends State<LogInScreen> {
                 obscuretext: true,
               ),
               SizedBox(
-                height: height * 0.01,
+                height: height * 0.02,
               ),
-              Align(
-                alignment: Alignment.centerRight,
-                child: InkWell(
-                  onTap: () {
-                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-                        content: Text('Forgot Psssword Clicked')));
-                  },
-                  child: Text(
-                    'Forgot Password?',
-                    style: GoogleFonts.montserrat(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.blue),
-                  ),
-                ),
+              textfield(
+                text: "Re-type Password",
+                controller: conpassword,
+                inputType: TextInputType.visiblePassword,
+                obscuretext: true,
               ),
-              SizedBox(height: height * 0.035),
+              SizedBox(
+                height: height * 0.04,
+              ),
               ElevatedButton(
                 onPressed: () {
-                  if (email.text == "admin" && password.text == "admin") {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => MainHomeScreen()));
-                  } else {
-                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-                        content: Text('Check your username and password!!!')));
-                  }
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => UserMoreInfo()));
                 },
                 child: Text(
-                  'Log-In',
+                  'Register',
                   style: GoogleFonts.montserrat(
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
@@ -116,7 +90,7 @@ class _LogInScreenState extends State<LogInScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => SignUpScreen()));
+                              builder: (context) => LogInScreen()));
                     },
                     child: RichText(
                       text: TextSpan(
@@ -127,13 +101,13 @@ class _LogInScreenState extends State<LogInScreen> {
                         ),
                         children: <TextSpan>[
                           TextSpan(
-                            text: 'Don\'t have an account? ',
+                            text: 'Already have an account? ',
                             style: GoogleFonts.montserrat(
                               letterSpacing: 1,
                             ),
                           ),
                           TextSpan(
-                            text: 'Sign-Up',
+                            text: 'Log-In',
                             style: GoogleFonts.montserrat(
                               fontWeight: FontWeight.w500,
                               color: Colors.blue,

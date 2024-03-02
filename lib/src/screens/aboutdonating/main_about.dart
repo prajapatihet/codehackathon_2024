@@ -38,16 +38,18 @@ class MainAboutScreen extends StatelessWidget {
                         ),
                         children: <TextSpan>[
                           TextSpan(
-                              text: '''14th June 2020 is observed as ''',
-                              style: GoogleFonts.montserrat(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w400,
-                                letterSpacing: 1,
-                              )),
+                            text: '''14th June 2020 is observed as ''',
+                            style: GoogleFonts.montserrat(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w400,
+                              letterSpacing: 1,
+                            ),
+                          ),
                           TextSpan(
-                              text: '''World Blood Donor Day''',
-                              style: GoogleFonts.montserrat(
-                                  fontWeight: FontWeight.bold)),
+                            text: '''World Blood Donor Day''',
+                            style: GoogleFonts.montserrat(
+                                fontWeight: FontWeight.bold),
+                          ),
                           TextSpan(
                               text:
                                   '''. The theme for this year is “safe blood save lives” with the slogan “Give blood and make the world a healthier place.”\nDid you know one unit of donated blood can save up to three lives? This is because your blood is separated into its components (red blood cells, plasma, and platelet). Moreover, blood is needed on a regular basis for people suffering from blood disorders such as thalassemia and hemophilia, and also for the treatment of injuries after an accident, major surgeries, anemia, etc. Wondering if you are eligible for donating blood? Here is what you need to know before you plan for blood donation.''',
