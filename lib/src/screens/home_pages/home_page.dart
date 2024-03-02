@@ -1,5 +1,7 @@
+import 'package:codehackathon_2024/src/consts/blood_bank_card.dart';
 import 'package:codehackathon_2024/src/consts/home_card.dart';
 import 'package:codehackathon_2024/src/screens/aboutdonating/main_about.dart';
+import 'package:codehackathon_2024/src/screens/home_pages/bloodbank/blood_bank.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -41,8 +43,10 @@ class _HomePageState extends State<HomePage> {
                 button: "Get Started",
                 image: 'assets/images/home_image1.png',
                 onPressed: () {
-                  ScaffoldMessenger.of(context)
-                      .showSnackBar(const SnackBar(content: Text('Calling')));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => BloodBankScreen()));
                 },
               ),
               HomeCard(
@@ -57,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                           builder: (context) => const MainAboutScreen()));
                 },
               ),
-              SizedBox(height: height * 0.15)
+              SizedBox(height: height * 0.1)
             ],
           ),
         ),

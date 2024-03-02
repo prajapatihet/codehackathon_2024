@@ -45,10 +45,7 @@ class OnBoardingScreen extends StatelessWidget {
               SizedBox(
                 height: height * 0.01,
               ),
-              Image.asset(
-                'assets/images/onboarding.png',
-                width: width * 0.7,
-              ),
+              Image.asset('assets/images/onboarding.png', width: width * 0.6),
               SizedBox(
                 height: height * 0.05,
               ),

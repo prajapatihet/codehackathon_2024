@@ -23,10 +23,10 @@ class _FilterScreenState extends State<FilterScreen> {
     'Rh+',
     'Rh-'
   ];
-
   TextEditingController cityController = TextEditingController();
   TextEditingController stateController = TextEditingController();
   TextEditingController countryController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
@@ -195,7 +195,7 @@ class _FilterScreenState extends State<FilterScreen> {
                 child: ElevatedButton(
                   onPressed: () {
                     ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text('Applying filter')));
+                        SnackBar(content: Text('Applying $_value1')));
 
                     Navigator.of(context).pop();
                   },
