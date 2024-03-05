@@ -1,4 +1,5 @@
 import 'package:codehackathon_2024/src/consts/home_card.dart';
+import 'package:codehackathon_2024/src/consts/widgets/home_card_form.dart';
 import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -38,14 +39,30 @@ class _HomePageState extends State<HomePage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  ElevatedButton(
-                    onPressed: () {},
-                    child: const Text('Want to Donote'),
+                  HomeCardConst(
+                    title: 'Want to Donate',
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text('Want to Donate')));
+                    },
                   ),
-                  ElevatedButton(
-                    onPressed: () {},
-                    child: const Text('Urgent Required'),
+                  HomeCardConst(
+                    title: 'Urgent required',
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text('Make an Request')));
+                    },
                   ),
+                  // ElevatedButton.icon(
+                  //   onPressed: () {},
+                  //   icon: const Icon(Icons.health_and_safety),
+                  //   label: const Text('Want to Donote'),
+                  // ),
+                  // ElevatedButton.icon(
+                  //   onPressed: () {},
+                  //   icon: const Icon(Icons.note_add_rounded),
+                  //   label: const Text('Urgent Required'),
+                  // ),
                 ],
               ),
               HomeCard(
