@@ -1,4 +1,4 @@
-import 'package:codehackathon_2024/src/screens/main_home/bottom_nav.dart';
+import 'package:codehackathon_2024/src/views/main_home/bottom_nav.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -10,6 +10,12 @@ class MainHomeScreen extends StatefulWidget {
 }
 
 class _MainHomeScreenState extends State<MainHomeScreen> {
+  @override
+  void dispose() {
+    Get.delete<NavigationController>();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(NavigationController());

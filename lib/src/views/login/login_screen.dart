@@ -1,7 +1,7 @@
-import 'package:codehackathon_2024/src/screens/main_home/main_home.dart';
-import 'package:codehackathon_2024/src/screens/signup/sign_up_screen.dart';
+import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
+import 'package:codehackathon_2024/src/views/main_home/main_home.dart';
+import 'package:codehackathon_2024/src/views/signup/sign_up_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LogInScreen extends StatefulWidget {
@@ -89,10 +89,7 @@ class _LogInScreenState extends State<LogInScreen> {
               ElevatedButton(
                 onPressed: () {
                   if (email.text == "admin" && password.text == "admin") {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => MainHomeScreen()));
+                    Navigator.pushNamed(context, RouterConstant.mainhome);
                   } else {
                     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                         content: Text('Check your username and password!!!')));
@@ -113,10 +110,7 @@ class _LogInScreenState extends State<LogInScreen> {
                   alignment: FractionalOffset.bottomCenter,
                   child: InkWell(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => SignUpScreen()));
+                      Navigator.pushNamed(context, RouterConstant.register);
                     },
                     child: RichText(
                       text: TextSpan(

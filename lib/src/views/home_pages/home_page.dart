@@ -1,7 +1,5 @@
-import 'package:codehackathon_2024/src/consts/blood_bank_card.dart';
 import 'package:codehackathon_2024/src/consts/home_card.dart';
-import 'package:codehackathon_2024/src/screens/aboutdonating/main_about.dart';
-import 'package:codehackathon_2024/src/screens/home_pages/bloodbank/blood_bank.dart';
+import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -37,16 +35,26 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: const Text('Want to Donote'),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: const Text('Urgent Required'),
+                  ),
+                ],
+              ),
               HomeCard(
                 title: "Locate Nearby Bloodbanks",
                 description: "Find Nearby BloodBank.",
                 button: "Get Started",
                 image: 'assets/images/home_image1.png',
                 onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => BloodBankScreen()));
+                  Navigator.pushNamed(context, RouterConstant.bloodbanks);
                 },
               ),
               HomeCard(
@@ -55,10 +63,7 @@ class _HomePageState extends State<HomePage> {
                 button: "Get Started",
                 image: 'assets/images/home_image2.png',
                 onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const MainAboutScreen()));
+                  Navigator.pushNamed(context, RouterConstant.aboutdonate);
                 },
               ),
               SizedBox(height: height * 0.1)
@@ -66,18 +71,18 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () {
-          ScaffoldMessenger.of(context)
-              .showSnackBar(const SnackBar(content: Text('Make an Request')));
-        },
-        icon: const Icon(Icons.add),
-        label: Text(
-          'Request',
-          style: GoogleFonts.montserrat(
-              fontSize: 13.0, fontWeight: FontWeight.w600),
-        ),
-      ),
+      // floatingActionButton: FloatingActionButton.extended(
+      //   onPressed: () {
+      //     ScaffoldMessenger.of(context)
+      //         .showSnackBar(const SnackBar(content: Text('Make an Request')));
+      //   },
+      //   icon: const Icon(Icons.add),
+      //   label: Text(
+      //     'Request',
+      //     style: GoogleFonts.montserrat(
+      //         fontSize: 13.0, fontWeight: FontWeight.w600),
+      //   ),
+      // ),
     );
   }
 }

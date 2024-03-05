@@ -1,4 +1,5 @@
-import 'package:codehackathon_2024/src/screens/getstart/onboarding.dart';
+import 'package:codehackathon_2024/src/utils/routes/routes.dart';
+import 'package:codehackathon_2024/src/views/getstart/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'LifeShare',
+      onGenerateRoute: Routers.generateRoute,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,

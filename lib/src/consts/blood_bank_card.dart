@@ -1,13 +1,19 @@
+import 'package:codehackathon_2024/src/utils/map.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class BloodBankCard extends StatelessWidget {
   String name, location, time;
+  String long, lat;
+
   BloodBankCard({
     super.key,
     required this.name,
     required this.location,
     required this.time,
+    required this.long,
+    required this.lat,
   });
 
   @override
@@ -98,9 +104,11 @@ class BloodBankCard extends StatelessWidget {
                       ),
                       ElevatedButton(
                           onPressed: () {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(
-                                    content: Text('Navigating to map...')));
+                            launchUrl(
+                              Uri.parse(
+                                  'https://www.google.com/maps/dir/?api=1&destination=$lat,$long'),
+                              mode: LaunchMode.inAppBrowserView,
+                            );
                           },
                           child: const Icon(
                             Icons.directions,

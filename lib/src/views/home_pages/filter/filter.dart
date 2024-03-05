@@ -37,16 +37,7 @@ class _FilterScreenState extends State<FilterScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Align(
-                alignment: Alignment.topRight,
-                child: IconButton(
-                  onPressed: () {
-                    Navigator.of(context).pop();
-                  },
-                  icon: const Icon(Icons.close, size: 27),
-                ),
-              ),
-              SizedBox(height: height * 0.01),
+              SizedBox(height: height * 0.05),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -157,6 +148,15 @@ class _FilterScreenState extends State<FilterScreen> {
                     borderRadius: BorderRadius.circular(15),
                     borderSide: const BorderSide(color: Colors.grey, width: 1),
                   ),
+                ),
+              ),
+              SizedBox(height: height * 0.01),
+              Text(
+                'Conuntry',
+                style: GoogleFonts.montserrat(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 18,
+                  letterSpacing: 0.5,
                 ),
               ),
               SizedBox(height: height * 0.01),

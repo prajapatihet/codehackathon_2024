@@ -2,19 +2,27 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DonorInfoCard extends StatelessWidget {
-  String name, bloodGroup, location, image;
+  String name, bloodGroup, location, gen;
   bool isAvailable;
   VoidCallback? onPressed;
 
   DonorInfoCard({
     super.key,
-    required this.image,
     required this.name,
     required this.bloodGroup,
     required this.location,
     required this.isAvailable,
+    required this.gen,
     this.onPressed,
   });
+
+  bool isType(String g) {
+    if (g.toLowerCase() == 'male') {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +38,9 @@ class DonorInfoCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Image.asset(
-                image,
+                isType(gen)
+                    ? 'assets/images/user1.png'
+                    : 'assets/images/user2.png',
                 height: MediaQuery.of(context).size.height / 13,
               ),
               SizedBox(

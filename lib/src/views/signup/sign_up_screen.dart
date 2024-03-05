@@ -1,5 +1,4 @@
-import 'package:codehackathon_2024/src/screens/login/login_screen.dart';
-import 'package:codehackathon_2024/src/screens/signup/more_info.dart';
+import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -33,7 +32,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 child: Text(
                   'Register',
                   style: GoogleFonts.montserrat(
-                    fontSize: 25,
+                    fontSize: 24,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 0.5,
                   ),
@@ -69,8 +68,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
               ),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => UserMoreInfo()));
+                  Navigator.pushReplacementNamed(
+                      context, RouterConstant.moreinfo);
                 },
                 child: Text(
                   'Register',
@@ -87,10 +86,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   alignment: FractionalOffset.bottomCenter,
                   child: InkWell(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => LogInScreen()));
+                      Navigator.pushNamed(context, RouterConstant.login);
                     },
                     child: RichText(
                       text: TextSpan(

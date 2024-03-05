@@ -1,4 +1,5 @@
-import 'package:codehackathon_2024/src/screens/home_pages/filter/filter.dart';
+import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
+import 'package:codehackathon_2024/src/views/home_pages/filter/filter.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -32,10 +33,7 @@ class _SearchPageState extends State<SearchPage> {
         actions: [
           IconButton(
               onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const FilterScreen()));
+                Navigator.pushNamed(context, RouterConstant.filterdonor);
               },
               icon: actionIcon),
         ],
@@ -71,66 +69,66 @@ class _SearchPageState extends State<SearchPage> {
                   height: height * 0.001,
                 ),
                 DonorInfoCard(
-                  image: 'assets/images/user1.png',
                   name: "Devraj Gohil",
                   bloodGroup: "O+",
                   location: "Delhi",
+                  gen: 'male',
                   isAvailable: true,
                 ),
                 DonorInfoCard(
-                  image: 'assets/images/user1.png',
                   name: "Harsh Darji",
                   bloodGroup: "O+",
                   location: "Vadodara",
+                  gen: 'male',
                   isAvailable: true,
                 ),
                 DonorInfoCard(
-                  image: 'assets/images/user1.png',
-                  name: "Dev Patel",
-                  bloodGroup: "A+",
-                  location: "Mumbai",
-                  isAvailable: true,
-                ),
-                DonorInfoCard(
-                  image: 'assets/images/user1.png',
-                  name: "Karan Parmar",
-                  bloodGroup: "AB+",
+                  name: "Dhrupal",
+                  bloodGroup: "O+",
                   location: "Vadodara",
-                  isAvailable: false,
-                ),
-                DonorInfoCard(
-                  image: 'assets/images/user1.png',
-                  name: "Jayesh Chavda",
-                  bloodGroup: "Rh+",
-                  location: "Anand",
-                  isAvailable: false,
-                ),
-                DonorInfoCard(
-                  image: 'assets/images/user1.png',
-                  name: "Jay Patel",
-                  bloodGroup: "O-",
-                  location: "Nadiad",
+                  gen: 'female',
                   isAvailable: true,
                 ),
                 DonorInfoCard(
-                  image: 'assets/images/user1.png',
-                  name: "Daksh Patel",
-                  bloodGroup: "O-",
-                  location: "Bharuch",
-                  isAvailable: false,
-                ),
-                DonorInfoCard(
-                  image: 'assets/images/user1.png',
-                  name: "Reeya Prajapati",
-                  bloodGroup: "O-",
+                  name: "Het",
+                  bloodGroup: "O+",
                   location: "Vadodara",
+                  gen: 'male',
                   isAvailable: true,
                 ),
                 DonorInfoCard(
-                  image: 'assets/images/user1.png',
-                  name: "Deep Patel",
-                  bloodGroup: "O-",
-                  location: "Surat",
+                  name: "Mahi",
+                  bloodGroup: "O+",
+                  location: "Vadodara",
+                  gen: 'female',
+                  isAvailable: true,
+                ),
+                DonorInfoCard(
+                  name: "Harsh Darji",
+                  bloodGroup: "O+",
+                  location: "Vadodara",
+                  gen: 'male',
+                  isAvailable: true,
+                ),
+                DonorInfoCard(
+                  name: "Harsh Darji",
+                  bloodGroup: "O+",
+                  location: "Vadodara",
+                  gen: 'male',
+                  isAvailable: true,
+                ),
+                DonorInfoCard(
+                  name: "Harsh Darji",
+                  bloodGroup: "O+",
+                  location: "Vadodara",
+                  gen: 'male',
+                  isAvailable: true,
+                ),
+                DonorInfoCard(
+                  name: "Harsh Darji",
+                  bloodGroup: "O+",
+                  location: "Vadodara",
+                  gen: 'male',
                   isAvailable: true,
                 ),
               ],

@@ -1,4 +1,5 @@
-import 'package:codehackathon_2024/src/screens/login/login_screen.dart';
+import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
+import 'package:codehackathon_2024/src/views/login/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -51,12 +52,7 @@ class OnBoardingScreen extends StatelessWidget {
               ),
               OutlinedButton(
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => LogInScreen(),
-                    ),
-                  );
+                  Navigator.pushNamed(context, RouterConstant.login);
                 },
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.all(16),

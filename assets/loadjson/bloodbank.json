@@ -1,0 +1,1074 @@
+[
+  {
+    "name": "V. S. Hospital Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "C/o. Sheth, Vadilal Sarabhai (V.S.) Hospital, Ellisbridge, Ahmedabad",
+    "type": "Government",
+    "lat": 23.020595,
+    "long": 72.571659
+  },
+  {
+    "name": "Smt. Shardaben Hospital Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Smt. Laxmiben Chimanlal Lalbhai Blood Bank, C/o. The Superintendent, Smt. Shardaben Chimanlal Municipal General Hospital, Saraspur, Ahmedabad.",
+    "type": "Government",
+    "lat": 23.035285,
+    "long": 72.617719
+  },
+  {
+    "name": "L. G. Hospital Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Sheth L.G. General Hospital and Blood Bank, Maninagar,  Ahmedabad",
+    "type": "Government",
+    "lat": 22.999464,
+    "long": 72.60458
+  },
+  {
+    "name": "Civil Hospital Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Blood Bank, Department of IHBT, C/o.The Civil Hospital, Asarwa, Ahmedabad",
+    "type": "Government",
+    "lat": 23.051227,
+    "long": 72.6055
+  },
+  {
+    "name": "General Hospital Blood Bank Sola",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Blood Bank, Civil Hospital, Sarkhej Highway, Near Gujarat High Court,  Sola, Ahmedabad",
+    "type": "Government",
+    "lat": 23.082702,
+    "long": 72.525858
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Indian Red Cross Society, J. L. Thakore Red Cross Bhavan,  18-Gujarat Brahmkshatriya Society, Behind Suvidha Market, Paldi, Ahmedabad",
+    "type": "Charity",
+    "lat": 23.012718,
+    "long": 72.55774
+  },
+  {
+    "name": "The Gujarat Cancer & Research Institute Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "The Gujarat Cancer & Research Institute, M.P. Shah Cancer Hospital, Civil Hospital Campus, Asarwa, Ahmedabad",
+    "type": "Government",
+    "lat": 23.039061,
+    "long": 72.610263
+  },
+  {
+    "name": "Institute of Kidney Disease and Research Centre",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Blood Bank, The Institute of Kidney Disease and Research Centre, Civil Hospital Compound, Asarwa, Ahmedabad",
+    "type": "Government",
+    "lat": 23.051439,
+    "long": 72.605577
+  },
+  {
+    "name": "Help Voluntary Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Help Voluntary Blood Bank (Green Cross Voluntary Blood Bank Pathology and RIA Laboratory) 6 and 7, Kotyark Complex, Opposite to L.G. Hospital, Maninagar, Ahmedabad",
+    "type": "Charity",
+    "lat": 23.000103,
+    "long": 72.604863
+  },
+  {
+    "name": "GUJARAT CANCER MEDICAL COLLEGE",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Blood Bank, Gujarat Cancer Society Medical College Hospital and Research Centre,  Opp. D.R.M. office, Swadesi Mill compound, Near Chamunda Bridge,  Ahmedabad",
+    "type": "Government",
+    "lat": 23.038706,
+    "long": 72.610334
+  },
+  {
+    "name": "General Hospital Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Model Hospital Blood Bank, (ESIS), Blood Bank, Bapunagar, Ahmedabad",
+    "type": "Government",
+    "lat": 23.028114,
+    "long": 72.623869
+  },
+  {
+    "name": "Dr. Jivraj Mehta  Smarak Health Foundation Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Blood Bank, Dr. Jivraj Mehta  Smarak Health Foundation, Bakeri Medical Research Centre, Arogya Dham, Dr. Jivraj Mehta Marg, Ahmedabad.",
+    "type": "Charity",
+    "lat": 23.008319,
+    "long": 72.543367
+  },
+  {
+    "name": "Prathama Blood Centre",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Prathama Blood Centre, B/H Jivraj Mehta Hospital, Near Lavanya Society, Dr. C.V. Raman Marg, Vasna, Ahmedabad",
+    "type": "Charity",
+    "lat": 23.006225,
+    "long": 72.541921
+  },
+  {
+    "name": "White Cross Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "White Cross Blood Bank (Vol.), 2nd Floor, Kandhari Building,  Opposite to S.T. Workshop, Naroda Road Patia, Naroda , Ahmedabad",
+    "type": "Charity",
+    "lat": 23.06573,
+    "long": 72.636791
+  },
+  {
+    "name": "Adarsh Pathology Laboratory and Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Adarsh Pathology Laboratory and Blood Bank, 1st Floor, Samjuba Hospital, Bapunagar, Ahmedabad",
+    "type": "Private",
+    "lat": 23.033177,
+    "long": 72.628422
+  },
+  {
+    "name": "Gujarat Blood Bank Paldi",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Gujarat Blood Bank (Voluntary), Pathology Laboratory, 101, Span Trade Centre, Opp. Kochrab Ashram, Near Paldi Char Rasta, Paldi, Ahmedabad",
+    "type": "Private",
+    "lat": 23.016405,
+    "long": 72.566328
+  },
+  {
+    "name": "Karnavati Blood Bank and Pathology Lab",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Karnavati Blood Bank and Pathology Lab, 36, Subhlaxmi Complex, Naranpura, Ahmedabad",
+    "type": "Private",
+    "lat": 23.057858,
+    "long": 72.552974
+  },
+  {
+    "name": "Cross World Voluntary Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Cross World Voluntary Blood Bank, Chandraprabhu Complex, Sardar Patel Cross Road, Ahmedabad",
+    "type": "Private",
+    "lat": 23.056322,
+    "long": 72.570237
+  },
+  {
+    "name": "Maha Gujarat Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Maha Gujarat Blood Bank (Voluntary) and Pathology Lab, 21, Parth  Comp., Near Maninagar Fire Station, Maninagar, Ahmedabad",
+    "type": "Private",
+    "lat": 22.997578,
+    "long": 72.603054
+  },
+  {
+    "name": "Supratech Voluntary Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Supratech Voluntary Blood Bank, Mild Stone Building, 1st Floor, Near Drive-in Cinema, Thaltej, Ahmedabad",
+    "type": "Charity",
+    "lat": 23.067721,
+    "long": 72.512046
+  },
+  {
+    "name": "Sterling Hospital",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Blood Bank, Sterling Hospitals, Drive in Road, Near Gurukul, Memnagar Road, Ahmedabad",
+    "type": "Private",
+    "lat": 23.048798,
+    "long": 72.531309
+  },
+  {
+    "name": "Ami Pathology Laboratory and Blood Bank",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Ami Pathology Laboratory and Blood Bank, 14-15 Baronet Tower (Complex), Tollnaka, Highway , Ramnagar, Sabarmati, Ahmedabad",
+    "type": "Private",
+    "lat": 23.08705,
+    "long": 72.592226
+  },
+  {
+    "name": "Gujarat Blood Bank Naranpura",
+    "loc": "Ahmedabad, Gujarat",
+    "add": "Gujarat Blood Bank (Voluntary) and Pathology Laboratory,   1-2, Subhlaxmi Complex, Naranpura, Ahmedabad",
+    "type": "Government",
+    "lat": 23.055467,
+    "long": 72.560224
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank",
+    "loc": "Amreli, Gujarat",
+    "add": "Mahatma Muldas Red Cross Bhavan, Civil Hospital Campus",
+    "type": "Charity",
+    "lat": 21.606994,
+    "long": 71.22186
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank",
+    "loc": "Anand, Gujarat",
+    "add": "Blood Bank, Indian Red Cross Society, Sardar Bhavan, Opposite to Municipal Building, Sardar Ganj Road, Anand",
+    "type": "Private",
+    "lat": 22.554608,
+    "long": 72.960402
+  },
+  {
+    "name": "Indu Voluntary Blood Bank",
+    "loc": "Anand, Gujarat",
+    "add": "Indu Voluntary Blood Bank Managed by Charotar Health Research Foundation Trust, Jashganga Complex, Station Road, Anand",
+    "type": "Charity",
+    "lat": 22.596385,
+    "long": 72.80717
+  },
+  {
+    "name": "Ghanshyam Pathlology Laboratory and Blood Bank",
+    "loc": "Anand, Gujarat",
+    "add": "Ghanshyam Pathlology Laboratory and Blood Bank, Krishna Road,  B/h . Mayfair Hotel, Anand",
+    "type": "Private",
+    "lat": 22.556549,
+    "long": 72.963992
+  },
+  {
+    "name": "Lions Club Khambat Blood Bank",
+    "loc": "Kambhat, Gujarat",
+    "add": "Blood Bank, The Secretary, Lions Club (Society), Lions Medical Centre, Pith Bazar, Khambhat, Anand District",
+    "type": "Private",
+    "lat": 21.520533,
+    "long": 70.454461
+  },
+  {
+    "name": "A.D. Gorwala Karamsad Blood Bank",
+    "loc": "Karamsad, Gujarat",
+    "add": "A.D.Gorwala Blood Bank, Pramukhswami Medical College and Shree krishna Hospital, Gokulnagar, Karamsad, Anand",
+    "type": "Charity",
+    "lat": 22.539473,
+    "long": 72.890433
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank Petlad",
+    "loc": "Petlad, Gujarat",
+    "add": "Blood Bank, Indian Red Cross Society, Opposite to Ranchodji Temple, Petlad, Anand",
+    "type": "Private",
+    "lat": 22.564674,
+    "long": 72.96086
+  },
+  {
+    "name": "Gandhi Lincon Hospital Blood Bank",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Bhansali Trust sanchalit Voluntary Blood Bank, Gandhi Lincon Hospital, Nr.Municipal Complex, Nr. Sardar-Baug, Deesa,  Banaskantha",
+    "type": "Private",
+    "lat": 24.256318,
+    "long": 72.184372
+  },
+  {
+    "name": "M. U. Pethani Voluntary Blood Bank, Palanpur",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Bhagwan Mahavir Seva Samiti Sanchalit Mafatben Uttamlal Pethani Voluntary Blood Bank, Baradpura, Near Delhi Gate,                           Palanpur, Banaskantha",
+    "type": "Government",
+    "lat": 24.170367,
+    "long": 72.435186
+  },
+  {
+    "name": "General Hospital Blood Bank Palanpur",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Blood Bank, General Hospital, Palanpur, Banaskantha",
+    "type": "Government",
+    "lat": 24.175017,
+    "long": 72.434692
+  },
+  {
+    "name": "Gayatri Pathology Laboratory and Voluntary Blood Bank",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Gayatri Pathology Laboratory and Voluntary Blood Bank, Kirti Chamber, Kirti Stambh Road, Palanpur, Banaskantha",
+    "type": "Private",
+    "lat": 24.266228,
+    "long": 72.183973
+  },
+  {
+    "name": "Bhoomi Voluntary Blood Bank Palanpur",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Bhoomi Voluntary Blood Bank, Paulamo House, Near Bridge,  Palanpur, Banaskantha",
+    "type": "Charity",
+    "lat": 24.162436,
+    "long": 72.414225
+  },
+  {
+    "name": "Vikas Voluntary Blood Bank",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Vikas Voluntary Blood Bank, Computerized Pathology Laboratory, Kirti Harsh Complex, Nr. Gayatri Mandir, Highway Road, Deesa, Banaskantha",
+    "type": "Private",
+    "lat": 24.264792,
+    "long": 72.183378
+  },
+  {
+    "name": "Dharti Voluntary Blood Bank",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Dharti Voluntary Blood Bank, 1st Floor, Super Market S.T. Road, Dhanera, Banaskantha",
+    "type": "Government",
+    "lat": 24.499781,
+    "long": 72.020131
+  },
+  {
+    "name": "Saraswati Voluntary Blood Bank",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Saraswati Voluntary Blood Bank. Saraswati Hospital, Opposite to Petrol pump, Dhanera, Banaskantha",
+    "type": "Government",
+    "lat": 24.499588,
+    "long": 72.032557
+  },
+  {
+    "name": "Gayatri Voluntary Blood Bank",
+    "loc": "Banaskantha, Gujarat",
+    "add": "Gayatri Voluntary Blood Bank, Kiran Complex,Highway Road,  Deesa, Banaskantha",
+    "type": "Private",
+    "lat": 24.263756,
+    "long": 72.162408
+  },
+  {
+    "name": "Adarsh Voluntary Blood Bank",
+    "loc": "Tharad, Gujarat",
+    "add": "Adrash Blood Bank (Shree Sharswati Trust - Tharad), Adarsh Complex,  2nd Floor, Ambika Nagar Society-1, Highway Road,  Tharad, Banaskantha",
+    "type": "Private",
+    "lat": 24.396283,
+    "long": 71.638042
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank",
+    "loc": "Bharuch, Gujarat",
+    "add": "Blood Bank, Indian Red Cross Society, Sevashram Hospital Compound, Bharuch",
+    "type": "Private",
+    "lat": 21.725118,
+    "long": 21.725118
+  },
+  {
+    "name": "Kumarpal Gandhi Blood Bank",
+    "loc": "Bharuch, Gujarat",
+    "add": "&#34;B&#34; Block,1st Floor, Near Palika Shopping Centre, Near Gujarat Gas Circle, Ankleshvar",
+    "type": "Private",
+    "lat": 21.628147,
+    "long": 72.995778
+  },
+  {
+    "name": "Sir T. General Hospital Blood Bank",
+    "loc": "Bhavnagar, Gujarat",
+    "add": "Blood Bank, Sir T. General Hospital, Dr. H. L. Vaidhya Marg,  Kalanala, Bhavnagar",
+    "type": "Government",
+    "lat": 21.767673,
+    "long": 72.141981
+  },
+  {
+    "name": "Bhavnagar Blood Bank",
+    "loc": "Bhavnagar, Gujarat",
+    "add": "Bhavnagar Blood Bank, Ofice No. 1,2,3 - Plot No. 1686, B-Wing, 1st Floor, Municipal Commercial Complex, Sardar Nagar Circle, Sardarnagar, Bhavnagar",
+    "type": "Government",
+    "lat": 21.76982,
+    "long": 72.160378
+  },
+  {
+    "name": "Bambhaniya Voluntary Blood Bank",
+    "loc": "Bhavnagar, Gujarat",
+    "add": "Bambhaniya Voluntary Blood Bank Trade Centre, Kalanain Circle, Bhavnagar",
+    "type": "Private",
+    "lat": 21.774103,
+    "long": 72.143714
+  },
+  {
+    "name": "Navkar Charitable Trust Mahuva Blood Bank",
+    "loc": "Bhavnagar, Gujarat",
+    "add": "Blood Bank Navkar Charitable Trust, Opposite to Nagrik Bank, Vasi Talav, Mahuva, Bhavnagar",
+    "type": "Private",
+    "lat": 21.088961,
+    "long": 71.769089
+  },
+  {
+    "name": "Smt. Sonalien A. Shah Blood Bank",
+    "loc": "Bhavnagar, Gujarat",
+    "add": "Blood Bank, Omkar Paramedical Charitable Trust Organization, Smt. Sonaliben A. Shah Blood Bank, 2nd Floor, Patel Chamber,Paliad Road, Botad, Bhavnagar",
+    "type": "Charity",
+    "lat": 22.178967,
+    "long": 71.651792
+  },
+  {
+    "name": "Tulsi Pathology Laboratory and Blood Bank",
+    "loc": "Bhavnagar, Gujarat",
+    "add": "Tulsi Pathology Laboratory and Blood Bank, Bhairav Para,  Palitana, Bhavnagar",
+    "type": "Private",
+    "lat": 21.529208,
+    "long": 71.824705
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank",
+    "loc": "Dahod, Gujarat",
+    "add": "Sanchalit Dr. Mohsinbai S. Lenwala Voluntary Blood Bank, Dr.Harilal C.Seth, Red Cross Bhavan, Police Line road, Dahod",
+    "type": "Charity",
+    "lat": 22.838831,
+    "long": 74.254139
+  },
+  {
+    "name": "Samarth Raktdan Kendra",
+    "loc": "Dahod, Gujarat",
+    "add": "Samarth Raktdan Kendra, Gausala chowk, Daulatgunj Bazar, Dahod",
+    "type": "Charity",
+    "lat": 22.949278,
+    "long": 73.630239
+  },
+  {
+    "name": "Kiran Voluntary Blood Bank",
+    "loc": "Dahod, Gujarat",
+    "add": "Kiran Voluntary Blood Bank, Near Hotel Vrundavan, Station Road, Dahod",
+    "type": "Private",
+    "lat": 22.839956,
+    "long": 74.254361
+  },
+  {
+    "name": "General Hospital Blood Bank Ahwa",
+    "loc": "Ahwa, Gujarat",
+    "add": "Blood Bank, General Hospital, Ahwa, Dang",
+    "type": "Government",
+    "lat": 20.761612,
+    "long": 73.689241
+  },
+  {
+    "name": "Indian Red Cross Society (IRCS), Kalol, Gandhinagar",
+    "loc": "Gandhinagar, Gujarat",
+    "add": "Blood Bank, Indian Red Cross Society, Sheth C.S. Municipal Hospital, Kalol, Gandhinagar",
+    "type": "Charity",
+    "lat": 22.608583,
+    "long": 73.459578
+  },
+  {
+    "name": "GMERS MEDICL COLLEGE ATTACHED GENERAL HOSPITAL, GANDHINAGAR",
+    "loc": "GANDHINAGAR, Gujarat",
+    "add": "Blood Bank, H-1 Block, First Floor, Civil Hospital Campus, Opposite to Pathik Ashram, Sector-12, Gandhinagar",
+    "type": "Government",
+    "lat": 23.218597,
+    "long": 72.641585
+  },
+  {
+    "name": "Shraddhadeep Pathology Lab and Blood Bank",
+    "loc": "Gandhinagar, Gujarat",
+    "add": "Shraddhadeep Pathology Lab and Blood Bank,  Shiv Complex , Plot no. 329, 1st Floor, Sector-16, Gandhinagar",
+    "type": "Private",
+    "lat": 23.226929,
+    "long": 72.646557
+  },
+  {
+    "name": "Apollo Hospital International Limited Blood Bank",
+    "loc": "Gandhinagar, Gujarat",
+    "add": "Blood Bank, Apollo Hospital International Limited, Block No. 1/A, GIDC estate, BHAT, Gandhinagar",
+    "type": "Private",
+    "lat": 23.109635,
+    "long": 72.625835
+  },
+  {
+    "name": "Indian Medical Association (IMA) Blood Bank",
+    "loc": "Mansa, Gujarat",
+    "add": "Blood Bank, Indian Medical Association (IMA), Manasa Charitable Trust sanchalit C.M.K. and P.N.N. Voluntary Blood Bank, 1st floor, Vijay Complex,  Mansa-Gandhinagar Highway, Manasa-382845, Gandhinagar",
+    "type": "Charity",
+    "lat": 23.420056,
+    "long": 72.653181
+  },
+  {
+    "name": "G.G.Hospital Blood Bank",
+    "loc": "Jamnagar, Gujarat",
+    "add": "Blood Bank, The  M.P.Shah  Medical College and Guru Govindsinh Hospital, Jamnagar",
+    "type": "Government",
+    "lat": 22.48531,
+    "long": 70.058561
+  },
+  {
+    "name": "Jamnagar Voluntary Blood Bank",
+    "loc": "Jamnagar, Gujarat",
+    "add": "Jamnagar Voluntary Blood Bank, 1st Floor, Shakuntla Apart. Hawai Chowk, Jamnagar",
+    "type": "Private",
+    "lat": 22.461884,
+    "long": 70.072017
+  },
+  {
+    "name": "General Hospital Blood Bank",
+    "loc": "Jamnagar, Gujarat",
+    "add": "Blood Bank, General Hospital, Jamkhambhalia, Jamnagar",
+    "type": "Government",
+    "lat": 22.208586,
+    "long": 69.651914
+  },
+  {
+    "name": "Tata Chemical Limited Blood Bank Mithapur",
+    "loc": "Jamnagar, Gujarat",
+    "add": "Blood Bank, Tata Chemical Limited, Okhamandal, Mithapur,  Jamnagar",
+    "type": "Private",
+    "lat": 22.205519,
+    "long": 69.102536
+  },
+  {
+    "name": "General Hospital Blood Bank Junagadh",
+    "loc": "Junagadh, Gujarat",
+    "add": "Blood Bank, General Hospital, Azad Chowk, Mahatma Gandhi Road, Junagadh",
+    "type": "Government",
+    "lat": 21.520666,
+    "long": 70.459367
+  },
+  {
+    "name": "Divyajyoti Charitable Voulantary Blood Bank",
+    "loc": "Junagadh, Gujarat",
+    "add": "Divyajyoti Charitable Voulantary Blood Bank, Varsing Pur Road, B/H Jalaramvadi, Una, Junagadh",
+    "type": "Charity",
+    "lat": 20.827644,
+    "long": 70.041767
+  },
+  {
+    "name": "Shri Jivanprakash Foundation Voluntary Blood Bank",
+    "loc": "Junagadh, Gujarat",
+    "add": "Shri Jivanprakash Foundation Voluntary Blood Bank, Vikram Commercial Complex, Sardar Baug Road, Junagadh",
+    "type": "Charity",
+    "lat": 21.520902,
+    "long": 70.453799
+  },
+  {
+    "name": "Navjeevan Blood Bank and Clinical Laboratory,  Veraval",
+    "loc": "Junagadh, Gujarat",
+    "add": "Navjeevan Blood Bank and Clinical Laboratory, Lilashah Shopping Centre, First Floor, Nr. Bus Station, Veraval,  Junagadh",
+    "type": "Private",
+    "lat": 20.919489,
+    "long": 70.352739
+  },
+  {
+    "name": "Navdeep Blood Bank",
+    "loc": "Junagadh, Gujarat",
+    "add": "Navdeep Blood Bank, Sankalp Complex, First Floor,  S.T. Road,opp Dr. Chikkhalia Hospital, Junagadh",
+    "type": "Private",
+    "lat": 21.520745,
+    "long": 70.454426
+  },
+  {
+    "name": "Sardar Patel voulantary Blood Bank, Keshod",
+    "loc": "Keshod, Gujarat",
+    "add": "Sardar patel voulantary Blood Bank, 1st Floor Sheetal Building, Ramnagar station road, Keshod, Junagadh",
+    "type": "Charity",
+    "lat": 21.297078,
+    "long": 70.246131
+  },
+  {
+    "name": "G.K. General Hospital Blood Bank, Bhuj",
+    "loc": "Bhuj, Gujarat",
+    "add": "Blood Bank, G.K. General Hospital, Bhuj, Kutch",
+    "type": "Government",
+    "lat": 23.240587,
+    "long": 23.240587
+  },
+  {
+    "name": "Rajabhai Patel Blood Bank (IMA)",
+    "loc": "Gandhidham, Gujarat",
+    "add": "Indian Medical Association Gandhidham Trust (Reg.),  Rajabhai Patel Blood Bank, Gandhidham Trust, Near Gurukul Road, Gandhidham, Kutch",
+    "type": "Charity",
+    "lat": 23.073501,
+    "long": 23.073501
+  },
+  {
+    "name": "Mayur Voluntary Blood Bank   Mandvi",
+    "loc": "Kutch, Gujarat",
+    "add": "Mayur Voluntary Blood Bank & Pathology Laboratory,  Azad Chowk, Mandvi, Kutch",
+    "type": "Private",
+    "lat": 22.833302,
+    "long": 69.354198
+  },
+  {
+    "name": "Jivan Jyot Blood Bank",
+    "loc": "Kutch, Gujarat",
+    "add": "Jivanjyot Blood Bank, 63, A/B, Vijyanagar, New Hospital Road, Bhuj, Kutch",
+    "type": "Charity",
+    "lat": 23.241748,
+    "long": 69.67181
+  },
+  {
+    "name": "Matrushri Meghbai Pramji Jetha Hospital and Research Centre, Bhuj",
+    "loc": "Kutch, Gujarat",
+    "add": "Blood Bank, Matrushri Meghbhai Premaji Jetha Hospital and Research Centre, Sardar Patel Vidhya Sankul, Bhuj - Mundra Road, Kutch.",
+    "type": "Charity",
+    "lat": 23.242291,
+    "long": 69.666889
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank",
+    "loc": "Kapadwanj, Gujarat",
+    "add": "Indian Red Cross Society managed, C.R. Parikh Blood Bank, Indian Red Cross Society Building, Railway Station Road,  Kapadwanj, Kheda",
+    "type": "Private",
+    "lat": 22.021536,
+    "long": 73.0772
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank Nadiad",
+    "loc": "Nadiad, Gujarat",
+    "add": "Blood Bank, Indian Red Cross Society, Shri H.V.Desai Blood Bank, Red Cross Building, Santram Road, Nadiad, Kheda",
+    "type": "Private",
+    "lat": 22.691088,
+    "long": 22.691088
+  },
+  {
+    "name": "Muljibhai Patel Urological Hospital Blood Bank",
+    "loc": "Nadiad, Gujarat",
+    "add": "Blood Bank, Muljibhai Patel Urological Hospital, Dr. V.V. Desai Marg, Nadiad, Kheda",
+    "type": "Private",
+    "lat": 22.683058,
+    "long": 72.872039
+  },
+  {
+    "name": "Gujarat Methodist Church Cardiac Care and Research Society Blood Bank",
+    "loc": "Nadiad, Gujarat",
+    "add": "Blood Bank, Gujarat Methodist Church Centre Care and Research Society, Mission Road, Nadiad, Kheda",
+    "type": "Charity",
+    "lat": 22.701204,
+    "long": 72.844443
+  },
+  {
+    "name": "General Hospital Blood Bank Mehsana",
+    "loc": "Mehsana, Gujarat",
+    "add": "Blood Bank, General Hospital, Near Bus Stand, Rajmahal Road, Mehsana",
+    "type": "Government",
+    "lat": 23.608546,
+    "long": 72.391231
+  },
+  {
+    "name": "Mehsana Jaycees Charitable Trust Blood Bank",
+    "loc": "Mehsana, Gujarat",
+    "add": "Mehsana Jaycees Charitable Trust Sanchalit Sarvodaya Commercial Co.op Voluntary Blood Bank, Pinky Super Bazar, Dairy Road, Mehsana",
+    "type": "Private",
+    "lat": 23.607589,
+    "long": 72.384975
+  },
+  {
+    "name": "Sardar Seva Trust, Unjha Nagrik Sahkari Voluntary Blood Bank",
+    "loc": "Unjha, Gujarat",
+    "add": "Sardar Seva Trust Sanchalit Unjha Nagrik Sahkari Bank Ltd., Voluntary Blood Bank, 1st Floor Poonam Complex, Unjha Mehsana",
+    "type": "Private",
+    "lat": 23.804024,
+    "long": 72.389713
+  },
+  {
+    "name": "Visnagar Voluntary Blood Bank",
+    "loc": "Visnagar, Gujarat",
+    "add": "Jivan Jyot Charitable Trust, Sanchalit Visnagar Voluntary Blood Bank, Station Road, Visnagar, Mehsana",
+    "type": "Private",
+    "lat": 23.701586,
+    "long": 72.541897
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank Navsari",
+    "loc": "Navsari, Gujarat",
+    "add": "Blood Bank, Indian Red Cross Society, B.K.Shah Red Cross Bhavan, Station Road, Navsari",
+    "type": "Private",
+    "lat": 20.949882,
+    "long": 72.918373
+  },
+  {
+    "name": "Lions Medical Trust Blood Bank Chikhali",
+    "loc": "Navsari, Gujarat",
+    "add": "Blood Bank, Lions Medical Research and Educational Charitable Trust Blood Bank, Opposite to Referral Hospital,  Chikhali, Navsari",
+    "type": "Private",
+    "lat": 20.947927,
+    "long": 73.028072
+  },
+  {
+    "name": "Indian red Cross Society Blood Bank Godhara",
+    "loc": "Godhara, Gujarat",
+    "add": "Blood Bank, Indian red Cross Society, Civil Lines, Godhra,  Panchmahal",
+    "type": "Private",
+    "lat": 22.770106,
+    "long": 22.770106
+  },
+  {
+    "name": "General Hospital Blood Bank Godhra,",
+    "loc": "Godhra, Gujarat",
+    "add": "Blood Bank, General Hospital, Godhra, Panchmahal",
+    "type": "Government",
+    "lat": 22.771958,
+    "long": 73.620689
+  },
+  {
+    "name": "Raktdan Kendra Voluntary Blood Bank Godhra",
+    "loc": "Godhra, Gujarat",
+    "add": "Raktdan Kendra Voluntary Blood Bank, Modi Ni Wadi No. 3, Near Nehru Garden, Godhra, Panchmahal",
+    "type": "Private",
+    "lat": 22.762228,
+    "long": 73.608892
+  },
+  {
+    "name": "Seventilal Kantilal Blood Bank",
+    "loc": "Patan, Gujarat",
+    "add": "The Rotary Club of Patan Charitable Trust Sanchlit Seventilal Kantilal Blood Bank, &#39;Rotary Bhavan&#39;, Khetarvari, Patan",
+    "type": "Private",
+    "lat": 23.848226,
+    "long": 72.112104
+  },
+  {
+    "name": "GMERS Medical College and Hospital Blood Bank Dharpur",
+    "loc": "Patan, Gujarat",
+    "add": "Blood Bank, GMERS Medical College, Dharpur, Patan",
+    "type": "Government",
+    "lat": 23.84643,
+    "long": 72.191676
+  },
+  {
+    "name": "Bahansali Trust Raktdan Kendra, Radhanpur",
+    "loc": "Patan, Gujarat",
+    "add": "Bahansali Trust Raktdan Kendra, Bahansali Trust Hospital,  Highway, Radhanpur, Patan",
+    "type": "Private",
+    "lat": 23.823539,
+    "long": 71.616139
+  },
+  {
+    "name": "General Hospital Blood Bank Siddhpur",
+    "loc": "Siddhpur, Gujarat",
+    "add": "Blood Bank, General Hospital, Siddhapur, Patan",
+    "type": "Government",
+    "lat": 23.916169,
+    "long": 72.372983
+  },
+  {
+    "name": "General Hospital Blood Bank Porbandar",
+    "loc": "Porbandar, Gujarat",
+    "add": "Blood Bank, General Hospital, Porbandar",
+    "type": "Government",
+    "lat": 21.636578,
+    "long": 69.628472
+  },
+  {
+    "name": "Asha Children Hospital and Blood Bank",
+    "loc": "Porbandar, Gujarat",
+    "add": "Asha Children Hospital and Blood Bank, Near Vasi Talav, Porbandar",
+    "type": "Private",
+    "lat": 21.633396,
+    "long": 21.633396
+  },
+  {
+    "name": "Shri Ram Blood Bank Porbandar",
+    "loc": "Porbandar, Gujarat",
+    "add": "Shri Ram Blood Bank, Star Compound, M.G. Road,  Porbandar",
+    "type": "Private",
+    "lat": 21.640642,
+    "long": 69.604689
+  },
+  {
+    "name": "Astha Voluntary Blood Bank Gondal",
+    "loc": "Gondal, Gujarat",
+    "add": "Astha Voluntary Blood Bank, Jetpur Road, Opposite to Hava Mahel, Near G.F.D.C. Gate, Gondal, Rajkot",
+    "type": "Private",
+    "lat": 21.959147,
+    "long": 70.803122
+  },
+  {
+    "name": "P.D.U. Medical College Blood Bank",
+    "loc": "Rajkot, Gujarat",
+    "add": "Blood Bank, P.D.U. Medical College and General Hospital, R.Nc.102, Jamnagar Road, Rajkot",
+    "type": "Government",
+    "lat": 22.304595,
+    "long": 70.799732
+  },
+  {
+    "name": "Rajkot Voluntary Blood Bank and Research Centre",
+    "loc": "Rajkot, Gujarat",
+    "add": "Rajkot Voluntary Blood Bank and Research Centre,  Pitroda House, Malaviya Road, Rajkot",
+    "type": "Private",
+    "lat": 22.287302,
+    "long": 70.8003
+  },
+  {
+    "name": "Red Cross Blood Bank Rajkot",
+    "loc": "Rajkot, Gujarat",
+    "add": "Red Cross Building, 1st Floor, Suchak Road, Near Kundaliya College, Rajkot",
+    "type": "Government",
+    "lat": 22.295381,
+    "long": 70.796956
+  },
+  {
+    "name": "Saurastra Voluntary Blood Bank Rajkot",
+    "loc": "Rajkot, Gujarat",
+    "add": "Kathiyawad Medical Education Trust sanchalit Saurastra Voluntary Blood Bank and Research Centre, Shashikunj commercial complex, 621, Mangal Park, Nirmalaconvent Road, Near Madhi Chowk, Rajkot",
+    "type": "Charity",
+    "lat": 22.30301,
+    "long": 70.787022
+  },
+  {
+    "name": "General Hospital Blood Bank Morbi",
+    "loc": "Rajkot, Gujarat",
+    "add": "Blood Bank, General Hospital, Morbi, Rajkot",
+    "type": "Government",
+    "lat": 22.815814,
+    "long": 70.831473
+  },
+  {
+    "name": "Nationality Development Foundation Blood Bank Rajkot",
+    "loc": "Rajkot, Gujarat",
+    "add": "Blood Bank, Nationality Development Foundation, Smt. S.C.Patel (Field Marshal Blood Banks), Medicare, 3rd Floor, Vidyanagar Main Road, Rajkot",
+    "type": "Charity",
+    "lat": 22.283334,
+    "long": 70.799999
+  },
+  {
+    "name": "Nathani Voluntary Blood Bank,  Rajkot",
+    "loc": "Rajkot, Gujarat",
+    "add": "Nathani Voluntary Blood Bank and Blood Tranfusion.  11, Tejash Building,20/22, New Janpath Plot, Rajkot",
+    "type": "Private",
+    "lat": 22.2943,
+    "long": 70.788614
+  },
+  {
+    "name": "Shiv Voluntary Blood Bank Morbi",
+    "loc": "Rajkot, Gujarat",
+    "add": "Shiv Voluntary Blood Bank, 2nd Floor, Pawan Complex, Sanala Road, Near Sagar Hospital, Morbi, Rajkot",
+    "type": "Private",
+    "lat": 22.811453,
+    "long": 70.828261
+  },
+  {
+    "name": "Jetpur Medical Foundation Trust Blood Bank Jetpur",
+    "loc": "Rajkot, Gujarat",
+    "add": "Blood Bank, Jetpur Medical Foundation Trust, 2nd Floor, opp. Union Bank of India, Kanakiya Plot, Jetpur, Rajkot",
+    "type": "Private",
+    "lat": 21.757189,
+    "long": 70.622644
+  },
+  {
+    "name": "Jagruti Charitable Trust Blood Bank Dhoraji",
+    "loc": "Rajkot, Gujarat",
+    "add": "Jagruti Charitable Trust Blood Bank, Azad Chowk, Three Gate, Dhoraji, Rajkot",
+    "type": "Private",
+    "lat": 21.731878,
+    "long": 70.450128
+  },
+  {
+    "name": "GMERS Medical College Attach Sir Pratap General Hospital Blood Bank",
+    "loc": "Himmatnagar, Gujarat",
+    "add": "Blood Bank, GMERS Medical College Attach Sir Pratap General Hospital, Himmatnagar, Sabarkantha",
+    "type": "Government",
+    "lat": 23.595692,
+    "long": 72.960688
+  },
+  {
+    "name": "Indian Red Cross Society Blood Bank Himmatnagar",
+    "loc": "Himmatnagar, Gujarat",
+    "add": "Blood Bank., Indian Red Cross Society Sabarkantha District Branch, Sheth Shri Jamanadas Madhavji Tanna , Red Cross Bhavan, Nr. G.P.O., State Highway,  Himmatnagar, Sabarkantha",
+    "type": "Private",
+    "lat": 23.056733,
+    "long": 72.573372
+  },
+  {
+    "name": "Patel Voluntary Blood Bank Modasa",
+    "loc": "Sabarkantha, Gujarat",
+    "add": "Patel Voluntary Blood Bank, Dr. Yogesh Upadhyay&#39;s Hospital, Siddhi Vinayak Comlpex, Shamlaji Road, Modasa,  Sabarkantha",
+    "type": "Private",
+    "lat": 23.467375,
+    "long": 73.297689
+  },
+  {
+    "name": "Trimurti Blood Bank",
+    "loc": "Sabarkantha, Gujarat",
+    "add": "Trimurti Blood Bank, B/H Trimurti Hospital, B/H Bus stop, Srinagar, Idar - 383430, Sabarkantha",
+    "type": "Private",
+    "lat": 23.838678,
+    "long": 23.838678
+  },
+  {
+    "name": "Late N.H. Ramani Memorial Voluntary Blood Bank and Navchetan Pathology Lab Modasa",
+    "loc": "Sabarkantha, Gujarat",
+    "add": "Late N.H. Ramani Memorial Voluntary Blood Bank and Navchetan Pathology Lab, 2nd floor, Upasana Complex, Nr. S.T. Stand, Modasa, Sabarkantha.",
+    "type": "Private",
+    "lat": 23.459892,
+    "long": 73.297569
+  },
+  {
+    "name": "New Civil Hospital Blood Bank",
+    "loc": "Surat, Gujarat",
+    "add": "Blood Bank, The New Civil Hospital, Outside Majura Gate,  Surat",
+    "type": "Government",
+    "lat": 21.180272,
+    "long": 72.821117
+  },
+  {
+    "name": "Surat Raktdan Kendra",
+    "loc": "Surat, Gujarat",
+    "add": "Surat Raktdan Kendra, Udhna Khatodara Health Centre,  Near Chosath Joganiyo Mataji Mandir, Udhna, Magdalla Road, Surat.",
+    "type": "Government",
+    "lat": 21.172667,
+    "long": 72.829951
+  },
+  {
+    "name": "Lok Samarpan Raktadan Kendra, Surat",
+    "loc": "Surat, Gujarat",
+    "add": "Lok Samarpan Raktadan Kendra Blood Bank,  15, Miranagar, Opp.Saurastra Bhavan, Mini Bazar, Varachha Road,  Surat",
+    "type": "Private",
+    "lat": 21.219718,
+    "long": 72.910619
+  },
+  {
+    "name": "Shree Mahavir Health And Medical Relief Society Blood Bank",
+    "loc": "Surat, Gujarat",
+    "add": "Blood Bank, Shree Mahavir Health And Medical Relief Society, Shri B.D.Mehta  Mahavir Heart Institute, Shree Mahavir Health Campus,  Athwagate, Ring road, Surat",
+    "type": "Private",
+    "lat": 21.184104,
+    "long": 72.813897
+  },
+  {
+    "name": "Shree Sardar Smarak Hospital Blood Bank",
+    "loc": "Surat, Gujarat",
+    "add": "Blood Bank, Shree Sardar Smarak Hospital Blood Bank,  Station Road, Sardar Baug, Bardoli, Surat",
+    "type": "Charity",
+    "lat": 21.130451,
+    "long": 73.108096
+  },
+  {
+    "name": "SMIMER Hospital Blood Bank",
+    "loc": "Surat, Gujarat",
+    "add": "Blood Bank, Surat Municipal Institute for Medical Education and Research, (SMIMER), Umarwada, Surat",
+    "type": "Government",
+    "lat": 21.196246,
+    "long": 72.845477
+  },
+  {
+    "name": "Surat Health Care Foundation Blood Bank",
+    "loc": "Surat, Gujarat",
+    "add": "Blood Bank, Aminaben Gangat and Ayeshaben Patel Blood Bank, Surat Health Care Foundation, C/o. Lokhat Hospital, Nr. Rampura Petrol Pump, Rampura, Surat",
+    "type": "Charity",
+    "lat": 21.195,
+    "long": 72.819444
+  },
+  {
+    "name": "General Hospital Surendranagar Blood Bank",
+    "loc": "Surendranagar, Gujarat",
+    "add": "Blood Bank, General Hospital, Surendranagar",
+    "type": "Government",
+    "lat": 22.7226,
+    "long": 71.649165
+  },
+  {
+    "name": "C. U. Shah Medical College and Hospital Blood Bank",
+    "loc": "Surendranagar, Gujarat",
+    "add": "Blood Bank, C. U. Shah Medical College and General Hospital, Dudhrej Road, Surerndranagar",
+    "type": "Charity",
+    "lat": 22.741751,
+    "long": 71.622137
+  },
+  {
+    "name": "Sharddha Voluntary Blood Bank and Pathology Laboratory Dhangadhra",
+    "loc": "Surendranagar, Gujarat",
+    "add": "Shraddha Vol. Blood Bank and Pathology Laboratory, Halani Chamber, 1st floor, Zala Road, Dhangadhra, Surendranagar",
+    "type": "Private",
+    "lat": 22.990836,
+    "long": 71.47162
+  },
+  {
+    "name": "Laxmiben Kushalbhai Patel Blood Bank",
+    "loc": "Tapi, Gujarat",
+    "add": "Laxmiben Kushalbhai Patel Blood Bank, 1st Floor, Janak Smarak  Hospital, Kanpura, Vyara, Tapi",
+    "type": "Government",
+    "lat": 21.113314,
+    "long": 21.113314
+  },
+  {
+    "name": "Maliba Raktdan Kendra (IRCS)",
+    "loc": "Vyara, Gujarat",
+    "add": "Blood Bank, Indian Red Cross Society, Maliba Raktadan Kendra, Bhikhiba Redcross Bhavan, Vilasini K. Desai aarogya Sankul, Near Vanchetana, Near Kakrapar, Vyara, Tapi",
+    "type": "Private",
+    "lat": 21.118758,
+    "long": 73.404128
+  },
+  {
+    "name": "S. S. G. Hospital Vadodara",
+    "loc": "Vadodara, Gujarat",
+    "add": "Blood Bank, The Government Medical College and S.S.G. Hospital, Vadodara",
+    "type": "Government",
+    "lat": 22.307133,
+    "long": 73.189731
+  },
+  {
+    "name": "Jamnabai Blood Bank",
+    "loc": "Vadodara, Gujarat",
+    "add": "Blood Bank, Jamnabai General Hospital, Vadodara",
+    "type": "Government",
+    "lat": 22.300308,
+    "long": 22.300308
+  },
+  {
+    "name": "Medical Care Centre Trust, Shri Jalaram Blood Bank, Vadodara",
+    "loc": "Vadodara, Gujarat",
+    "add": "Medical Care Centre Trust, Shri Jalaram Blood Bank, Kashiben Gordhandas Patel Children Hospital,Surajben Gordhanbhai Patel Women&#39;s Hospital, Jalaram Marg,  Karelibaug, Vadodara",
+    "type": "Private",
+    "lat": 22.314965,
+    "long": 73.195356
+  },
+  {
+    "name": "Suraktam Blood Bank Vadodara",
+    "loc": "Vadodara, Gujarat",
+    "add": "Suraktam Blood Bank, G-7, Blue Chip Building, Near Stock Exchange, Sayajiganj, Vadodara",
+    "type": "Private",
+    "lat": 22.307765,
+    "long": 73.18633
+  },
+  {
+    "name": "Kailash Cancer Hospital & Research Centre Blood Bank.",
+    "loc": "Vadodara, Gujarat",
+    "add": "At: Muni seva ashram, po: Goraj, Tal : Waghodiya, Dist : vadodara, State : Gujarat.",
+    "type": "Private",
+    "lat": 22.334629,
+    "long": 73.464162
+  },
+  {
+    "name": "GMERS Medical College and General Hospital Blood Bank",
+    "loc": "Vadodara, Gujarat",
+    "add": "Blood Bank, GMERS General Hospital and Medical College,  Gotri",
+    "type": "Government",
+    "lat": 22.313751,
+    "long": 73.148086
+  },
+  {
+    "name": "Indu Blood Bank Vadodara",
+    "loc": "Vadodara, Gujarat",
+    "add": "Indu Blood Bank, III Floor, Vinraj Plaza, Opposite to Government Press, Khoti, Vadodara",
+    "type": "Private",
+    "lat": 22.304204,
+    "long": 73.1935
+  },
+  {
+    "name": "Dhiraj General Blood Bank Vadodara",
+    "loc": "Vadodara, Gujarat",
+    "add": "Dhiraj General Blood Bank, Mu. Post:-Waghodiya, Pipariya, Vadodara",
+    "type": "Private",
+    "lat": 22.30732,
+    "long": 73.181079
+  },
+  {
+    "name": "Bhailal Amin General Hospital Blood Bank",
+    "loc": "Vadodara, Gujarat",
+    "add": "Blood Bank, Bhailal Amin General Hospital Blood Bank,  Alembic Road, Vadodara",
+    "type": "Government",
+    "lat": 22.325426,
+    "long": 73.163239
+  },
+  {
+    "name": "SBPP Cooperative Bank Foundation Blood Bank",
+    "loc": "Pardi, Gujarat",
+    "add": "Blood Bank, SBPP Cooperative Bank Foundation Blood Bank of Manav Arogya Seva Kendra,  Jesal Cooperative and Housing Society, Near Pardi Hospital, National Highway-No.-8, Killa Pardi, Valsad",
+    "type": "Private",
+    "lat": 20.516862,
+    "long": 72.951211
+  },
+  {
+    "name": "General Hospital and GMERS Medical College Blood Bank",
+    "loc": "Valsad, Gujarat",
+    "add": "Blood Bank, GMERS Medical College and General Hospital,  Halar Road, Valsad",
+    "type": "Government",
+    "lat": 20.59404,
+    "long": 72.922063
+  },
+  {
+    "name": "Valsad Raktdan Kendra",
+    "loc": "VALSAD, Gujarat",
+    "add": "Shirin and Jamshed Gulzar Regional Blood Centre, Valsad Raktdan Kendra (A Voluntary Blood Bank and Research Centre), RNC Free Eye Hospital Compound, Opp. Mamlatdar Office, Valsad",
+    "type": "Charity",
+    "lat": 20.609737,
+    "long": 72.929097
+  },
+  {
+    "name": "Nukem Blood Bank, Vapi",
+    "loc": "Valsad, Gujarat",
+    "add": "Nukem Blood Bank and Haria Rotary Hospital,  Plot No. 363 A- 364, G.I.D.C., Vapi, Valsad",
+    "type": "Private",
+    "lat": 20.381255,
+    "long": 72.920819
+  },
+  {
+    "name": "Smt. Puriben Popat Lakha Blood Bank",
+    "loc": "Vapi, Gujarat",
+    "add": "Blood Bank, Smt. Puriben  Popat  Lakha Lions Blood Bank sanchalak Lions Club of Vapi Udyognagar Charitable Trust,Plot No : 366/A, Prashant Park, Near Jain Tample, G.I.D.C, Vapi, Valsad",
+    "type": "Private",
+    "lat": 20.373994,
+    "long": 72.904781
+  }
+]
