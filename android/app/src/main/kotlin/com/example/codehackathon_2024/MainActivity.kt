@@ -1,4 +1,4 @@
-package com.example.codehackathon_2024
+package com.example.connectblooddonor
 
 import io.flutter.embedding.android.FlutterActivity
 

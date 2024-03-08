@@ -1,6 +1,6 @@
-import 'package:codehackathon_2024/src/consts/home_card.dart';
-import 'package:codehackathon_2024/src/consts/widgets/home_card_form.dart';
-import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
+import 'package:connectblooddonor/src/consts/home_card.dart';
+import 'package:connectblooddonor/src/consts/widgets/home_card_form.dart';
+import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

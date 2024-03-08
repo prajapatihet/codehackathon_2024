@@ -1,4 +1,4 @@
-import 'package:codehackathon_2024/src/views/main_home/bottom_nav.dart';
+import 'package:connectblooddonor/src/views/main_home/bottom_nav.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

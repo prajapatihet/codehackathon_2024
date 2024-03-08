@@ -1,4 +1,4 @@
-import 'package:codehackathon_2024/src/consts/blood_bank_card.dart';
+import 'package:connectblooddonor/src/consts/blood_bank_card.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

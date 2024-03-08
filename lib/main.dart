@@ -1,5 +1,5 @@
-import 'package:codehackathon_2024/src/utils/routes/routes.dart';
-import 'package:codehackathon_2024/src/views/getstart/onboarding.dart';
+import 'package:connectblooddonor/src/utils/routes/routes.dart';
+import 'package:connectblooddonor/src/views/getstart/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'LifeShare',
+      title: 'ConnectBloodDonor',
       onGenerateRoute: Routers.generateRoute,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

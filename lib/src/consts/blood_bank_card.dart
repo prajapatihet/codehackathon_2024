@@ -1,4 +1,4 @@
-import 'package:codehackathon_2024/src/utils/map.dart';
+import 'package:connectblooddonor/src/utils/map.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -103,17 +103,18 @@ class BloodBankCard extends StatelessWidget {
                         ),
                       ),
                       ElevatedButton(
-                          onPressed: () {
-                            launchUrl(
-                              Uri.parse(
-                                  'https://www.google.com/maps/dir/?api=1&destination=$lat,$long'),
-                              mode: LaunchMode.inAppBrowserView,
-                            );
-                          },
-                          child: const Icon(
-                            Icons.directions,
-                            size: 17,
-                          )),
+                        onPressed: () {
+                          launchUrl(
+                            Uri.parse(
+                                'https://www.google.com/maps/dir/?api=1&destination=$lat,$long'),
+                            mode: LaunchMode.inAppBrowserView,
+                          );
+                        },
+                        child: const Icon(
+                          Icons.directions,
+                          size: 17,
+                        ),
+                      ),
                     ],
                   )
                 ],

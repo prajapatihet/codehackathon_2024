@@ -1,5 +1,4 @@
-import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
-import 'package:codehackathon_2024/src/views/login/login_screen.dart';
+import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,7 +22,7 @@ class OnBoardingScreen extends StatelessWidget {
                 width: width,
               ),
               Text(
-                'Welcome to LifeShare',
+                'Welcome to our Application',
                 style: GoogleFonts.montserrat(
                   fontSize: 26,
                   fontWeight: FontWeight.w800,
@@ -46,38 +45,26 @@ class OnBoardingScreen extends StatelessWidget {
               SizedBox(
                 height: height * 0.01,
               ),
-              Image.asset('assets/images/onboarding.png', width: width * 0.6),
+              Image.asset(
+                'assets/images/onboarding.png',
+                width: width * 0.6,
+                height: height * 0.4,
+              ),
               SizedBox(
                 height: height * 0.05,
               ),
-              OutlinedButton(
+              ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, RouterConstant.login);
                 },
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.all(16),
-                  fixedSize: Size(width * 0.6, height * 0.07),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      "Get Started",
-                      style: GoogleFonts.montserrat(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w700,
-                        color: Colors.red,
-                      ),
-                    ),
-                    SizedBox(
-                      width: width * 0.02,
-                    ),
-                    const Icon(
-                      Icons.arrow_forward,
-                      size: 20,
-                      color: Colors.red,
-                    ),
-                  ],
+                child: Text(
+                  'Get Started',
+                  style: GoogleFonts.montserrat(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.red,
+                    letterSpacing: 1,
+                  ),
                 ),
               ),
             ],

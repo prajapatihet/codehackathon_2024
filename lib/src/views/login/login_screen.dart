@@ -1,6 +1,6 @@
-import 'package:codehackathon_2024/src/utils/routes/route_constant.dart';
-import 'package:codehackathon_2024/src/views/main_home/main_home.dart';
-import 'package:codehackathon_2024/src/views/signup/sign_up_screen.dart';
+import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
+import 'package:connectblooddonor/src/views/main_home/main_home.dart';
+import 'package:connectblooddonor/src/views/signup/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
