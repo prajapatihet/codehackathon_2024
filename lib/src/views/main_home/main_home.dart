@@ -23,7 +23,8 @@ class _MainHomeScreenState extends State<MainHomeScreen> {
       bottomNavigationBar: Obx(
         () => NavigationBar(
           height: 70,
-          elevation: 2,
+          elevation: 3,
+          surfaceTintColor: Colors.blue,
           selectedIndex: controller.selectedIndex.value,
           onDestinationSelected: (index) {
             controller.selectedIndex.value = index;

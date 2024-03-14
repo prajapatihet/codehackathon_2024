@@ -1,6 +1,7 @@
 import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
 import 'package:connectblooddonor/src/views/main_home/main_home.dart';
 import 'package:connectblooddonor/src/views/signup/sign_up_screen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -29,6 +30,7 @@ class _LogInScreenState extends State<LogInScreen> {
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
@@ -86,7 +88,8 @@ class _LogInScreenState extends State<LogInScreen> {
                 ),
               ),
               SizedBox(height: height * 0.035),
-              ElevatedButton(
+              CupertinoButton.filled(
+                borderRadius: BorderRadius.circular(30),
                 onPressed: () {
                   if (email.text == "admin" && password.text == "admin") {
                     Navigator.pushNamed(context, RouterConstant.mainhome);
@@ -98,9 +101,8 @@ class _LogInScreenState extends State<LogInScreen> {
                 child: Text(
                   'Log-In',
                   style: GoogleFonts.montserrat(
-                    fontSize: 16,
+                    fontSize: 15,
                     fontWeight: FontWeight.w600,
-                    color: Colors.red,
                     letterSpacing: 1,
                   ),
                 ),

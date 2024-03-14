@@ -1,5 +1,6 @@
 import 'package:connectblooddonor/src/consts/camp_info_card.dart';
 import 'package:connectblooddonor/src/consts/event_info_card.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
@@ -40,7 +41,8 @@ class _EventsPageState extends State<EventsPage> {
           'Events & Camps',
           style: GoogleFonts.montserrat(
             fontSize: 20,
-            fontWeight: FontWeight.w600,
+            fontWeight: FontWeight.w700,
+            letterSpacing: 1,
           ),
         ),
         actions: <Widget>[
@@ -280,11 +282,12 @@ class _EventsPageState extends State<EventsPage> {
               text: 'Choose on Map',
               inputType: TextInputType.text),
           SizedBox(
-            height: height * 0.03,
+            height: height * 0.04,
           ),
           Align(
             alignment: Alignment.center,
-            child: ElevatedButton(
+            child: CupertinoButton.filled(
+              borderRadius: BorderRadius.circular(30),
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Adding Event...')));
@@ -293,7 +296,7 @@ class _EventsPageState extends State<EventsPage> {
               child: Text(
                 'Submit',
                 style: GoogleFonts.montserrat(
-                  fontSize: 16,
+                  fontSize: 14,
                   fontWeight: FontWeight.w600,
                 ),
               ),

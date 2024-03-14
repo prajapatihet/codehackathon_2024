@@ -17,7 +17,7 @@ class MainAboutScreen extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  'Know more about Blood Donation',
+                  'About Blood Donation',
                   textAlign: TextAlign.center,
                   style: GoogleFonts.montserrat(
                     fontSize: 24,

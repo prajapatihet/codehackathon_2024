@@ -1,4 +1,5 @@
 import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -16,13 +17,11 @@ class OnBoardingScreen extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              SizedBox(
-                height: height * 0.01,
-                width: width,
-              ),
               Text(
                 'Welcome to our Application',
+                textAlign: TextAlign.center,
                 style: GoogleFonts.montserrat(
                   fontSize: 26,
                   fontWeight: FontWeight.w800,
@@ -53,7 +52,8 @@ class OnBoardingScreen extends StatelessWidget {
               SizedBox(
                 height: height * 0.05,
               ),
-              ElevatedButton(
+              CupertinoButton.filled(
+                borderRadius: BorderRadius.circular(30),
                 onPressed: () {
                   Navigator.pushNamed(context, RouterConstant.login);
                 },
@@ -62,8 +62,6 @@ class OnBoardingScreen extends StatelessWidget {
                   style: GoogleFonts.montserrat(
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
-                    color: Colors.red,
-                    letterSpacing: 1,
                   ),
                 ),
               ),

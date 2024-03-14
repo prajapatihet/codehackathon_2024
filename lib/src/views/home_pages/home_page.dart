@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
-    // var width = MediaQuery.of(context).size.width;
+    var width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -23,7 +23,8 @@ class _HomePageState extends State<HomePage> {
           'How can we help you?',
           style: GoogleFonts.montserrat(
             fontSize: 20,
-            fontWeight: FontWeight.w600,
+            fontWeight: FontWeight.w700,
+            letterSpacing: 1,
           ),
         ),
         toolbarHeight: 65,
@@ -40,17 +41,19 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   HomeCardConst(
-                    title: 'Want to Donate',
+                    title: 'Donate',
+                    col: Color.fromARGB(255, 255, 122, 122),
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Want to Donate')));
+                          const SnackBar(content: Text('Wnat to Donate')));
                     },
                   ),
                   HomeCardConst(
-                    title: 'Urgent required',
+                    title: 'Required',
+                    col: Color.fromARGB(255, 167, 165, 252),
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Make an Request')));
+                          const SnackBar(content: Text('Make a Required')));
                     },
                   ),
                   // ElevatedButton.icon(
@@ -68,17 +71,22 @@ class _HomePageState extends State<HomePage> {
               HomeCard(
                 title: "Locate Nearby Bloodbanks",
                 description: "Find Nearby BloodBank.",
-                button: "Get Started",
+                button: "Search",
                 image: 'assets/images/home_image1.png',
+                icon: const Icon(
+                  Icons.search,
+                  size: 23,
+                ),
                 onPressed: () {
                   Navigator.pushNamed(context, RouterConstant.bloodbanks);
                 },
               ),
               HomeCard(
                 title: "Learn About Donating",
-                description: "Learn more about blood & \nplatelet donation.",
-                button: "Get Started",
+                description: "Learn more about blood & platelet donation.",
+                button: "Learn",
                 image: 'assets/images/home_image2.png',
+                icon: const Icon(Icons.menu_book_outlined),
                 onPressed: () {
                   Navigator.pushNamed(context, RouterConstant.aboutdonate);
                 },

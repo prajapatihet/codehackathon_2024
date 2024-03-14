@@ -1,4 +1,5 @@
 import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -18,6 +19,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
@@ -66,7 +68,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
               SizedBox(
                 height: height * 0.04,
               ),
-              ElevatedButton(
+              CupertinoButton.filled(
+                borderRadius: BorderRadius.circular(30),
                 onPressed: () {
                   Navigator.pushReplacementNamed(
                       context, RouterConstant.moreinfo);
@@ -76,7 +79,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   style: GoogleFonts.montserrat(
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
-                    color: Colors.red,
                     letterSpacing: 1,
                   ),
                 ),

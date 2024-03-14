@@ -1,5 +1,6 @@
 import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
 import 'package:connectblooddonor/src/views/main_home/main_home.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -156,6 +157,7 @@ class _UserMoreInfoState extends State<UserMoreInfo> {
                       ),
                       Text(
                         'Available for donating blood',
+                        overflow: TextOverflow.ellipsis,
                         style: GoogleFonts.montserrat(
                           fontSize: 16,
                         ),
@@ -223,11 +225,12 @@ class _UserMoreInfoState extends State<UserMoreInfo> {
                     ],
                   ),
                   SizedBox(
-                    height: height * 0.02,
+                    height: height * 0.03,
                   ),
                   SizedBox(
                     width: width,
-                    child: ElevatedButton(
+                    child: CupertinoButton.filled(
+                      borderRadius: BorderRadius.circular(20),
                       onPressed: () {
                         Navigator.pushReplacementNamed(
                             context, RouterConstant.mainhome);

@@ -1,4 +1,6 @@
 import 'package:connectblooddonor/src/consts/profile_option.dart';
+import 'package:connectblooddonor/src/views/profile_pages/termcondition.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -17,7 +19,8 @@ class ProfilePage extends StatelessWidget {
           'Profile',
           style: GoogleFonts.montserrat(
             fontSize: 22,
-            fontWeight: FontWeight.w600,
+            fontWeight: FontWeight.w700,
+            letterSpacing: 1,
           ),
         ),
         toolbarHeight: 65,
@@ -57,23 +60,26 @@ class ProfilePage extends StatelessWidget {
                     ),
                   ),
                 ),
-                TextButton.icon(
-                  onPressed: () {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(content: Text('Your rating $rating!!!')));
-                  },
-                  icon: const Icon(
-                    Icons.star,
-                    color: Colors.red,
-                    size: 19,
-                  ),
-                  label: Text(
-                    rating,
-                    style: GoogleFonts.montserrat(
-                      fontSize: 17,
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
+                // TextButton.icon(
+                //   onPressed: () {
+                //     ScaffoldMessenger.of(context).showSnackBar(
+                //         SnackBar(content: Text('Your rating $rating!!!')));
+                //   },
+                //   icon: const Icon(
+                //     Icons.star,
+                //     color: Colors.red,
+                //     size: 19,
+                //   ),
+                //   label: Text(
+                //     rating,
+                //     style: GoogleFonts.montserrat(
+                //       fontSize: 17,
+                //       fontWeight: FontWeight.w500,
+                //     ),
+                //   ),
+                // ),
+                SizedBox(
+                  height: height * 0.05,
                 ),
                 Options(
                   option: 'More Information',
@@ -93,7 +99,12 @@ class ProfilePage extends StatelessWidget {
                 Options(
                   option: 'Data and Privacy',
                   icon: const Icon(Icons.privacy_tip),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const TnCScreen()));
+                  },
                 ),
                 Options(
                   option: 'Give Feedback',
@@ -101,16 +112,17 @@ class ProfilePage extends StatelessWidget {
                   onPressed: () {},
                 ),
                 SizedBox(height: height * 0.05),
-                InkWell(
-                  onTap: () {
-                    Navigator.pop(context);
+                CupertinoButton.filled(
+                  borderRadius: BorderRadius.circular(30),
+                  onPressed: () {
+                    Navigator.of(context).pop();
                   },
                   child: Text(
                     'Sign-Out',
                     style: GoogleFonts.montserrat(
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
-                      color: Colors.red,
+                      letterSpacing: 1,
                     ),
                   ),
                 ),
