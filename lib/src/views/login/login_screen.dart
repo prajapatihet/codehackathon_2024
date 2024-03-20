@@ -91,7 +91,8 @@ class _LogInScreenState extends State<LogInScreen> {
               CupertinoButton.filled(
                 borderRadius: BorderRadius.circular(30),
                 onPressed: () {
-                  if (email.text == "admin" && password.text == "admin") {
+                  if (email.text.toLowerCase() == "admin@gmail.com" &&
+                      password.text == "admin") {
                     Navigator.pushNamed(context, RouterConstant.mainhome);
                   } else {
                     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(

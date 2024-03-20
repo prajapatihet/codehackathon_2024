@@ -1,5 +1,6 @@
 import 'package:connectblooddonor/src/views/main_home/bottom_nav.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 class MainHomeScreen extends StatefulWidget {
@@ -19,37 +20,68 @@ class _MainHomeScreenState extends State<MainHomeScreen> {
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(NavigationController());
-    return Scaffold(
-      bottomNavigationBar: Obx(
-        () => NavigationBar(
-          height: 70,
-          elevation: 3,
-          surfaceTintColor: Colors.blue,
-          selectedIndex: controller.selectedIndex.value,
-          onDestinationSelected: (index) {
-            controller.selectedIndex.value = index;
-          },
-          destinations: const [
-            NavigationDestination(
-              icon: Icon(Icons.home),
-              label: "Home",
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.search),
-              label: "Search",
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.event),
-              label: "Camps",
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.person),
-              label: "Profile",
-            ),
-          ],
+    return WillPopScope(
+      child: Scaffold(
+        bottomNavigationBar: Obx(
+          () => NavigationBar(
+            height: 70,
+            elevation: 3,
+            surfaceTintColor: Colors.blue,
+            selectedIndex: controller.selectedIndex.value,
+            onDestinationSelected: (index) {
+              controller.selectedIndex.value = index;
+            },
+            destinations: const [
+              NavigationDestination(
+                icon: Icon(Icons.home),
+                label: "Home",
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.search),
+                label: "Search",
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.event),
+                label: "Camps",
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.person),
+                label: "Profile",
+              ),
+            ],
+          ),
         ),
+        body: Obx(() => controller.screen[controller.selectedIndex.value]),
       ),
-      body: Obx(() => controller.screen[controller.selectedIndex.value]),
+      onWillPop: () async {
+        final shouldPop = await showDialog<bool>(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              title: const Text('Exit'),
+              content: const Text('Are you sure you want to exit the app?'),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    SystemNavigator.pop();
+                  },
+                  child: const Text('Yes'),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.pop(context, false);
+                  },
+                  child: const Text(
+                    'No',
+                    style: TextStyle(color: Colors.red),
+                  ),
+                ),
+              ],
+            );
+          },
+        );
+        return shouldPop!;
+      },
     );
   }
 }

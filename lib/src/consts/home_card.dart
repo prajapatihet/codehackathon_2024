@@ -20,16 +20,13 @@ class HomeCard extends StatelessWidget {
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Container(
-        decoration: BoxDecoration(
-          boxShadow: [
-            BoxShadow(
-              color: Color.fromARGB(255, 238, 225, 225).withOpacity(0.2),
-            ),
-          ],
-        ),
+    return InkWell(
+      onTap: onPressed,
+      child: Card(
+        semanticContainer: true,
+        clipBehavior: Clip.antiAliasWithSaveLayer,
+        elevation: 0.5,
+        surfaceTintColor: Color.fromARGB(255, 255, 152, 145),
         child: Padding(
           padding: const EdgeInsets.all(6.0),
           child: Column(

@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CampInfoCard extends StatelessWidget {
@@ -111,7 +113,7 @@ class CampInfoCard extends StatelessWidget {
                                 'Date: $date',
                                 style: GoogleFonts.montserrat(
                                   fontSize: 15,
-                                  fontWeight: FontWeight.w500,
+                                  fontWeight: FontWeight.w400,
                                 ),
                               ),
                               SizedBox(
@@ -121,7 +123,7 @@ class CampInfoCard extends StatelessWidget {
                                 'Time: $time',
                                 style: GoogleFonts.montserrat(
                                   fontSize: 15,
-                                  fontWeight: FontWeight.w500,
+                                  fontWeight: FontWeight.w400,
                                 ),
                               ),
                               SizedBox(
@@ -131,7 +133,7 @@ class CampInfoCard extends StatelessWidget {
                                 'Venue: $venue',
                                 style: GoogleFonts.montserrat(
                                   fontSize: 15,
-                                  fontWeight: FontWeight.w500,
+                                  fontWeight: FontWeight.w400,
                                 ),
                               ),
                               SizedBox(
@@ -141,50 +143,58 @@ class CampInfoCard extends StatelessWidget {
                                 'Description: $description',
                                 style: GoogleFonts.montserrat(
                                   fontSize: 15,
-                                  fontWeight: FontWeight.w500,
+                                  fontWeight: FontWeight.w400,
                                 ),
                                 overflow: TextOverflow.ellipsis,
                               ),
                               SizedBox(height: height * 0.02),
                               Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceEvenly,
+                                mainAxisSize: MainAxisSize.min,
+                                mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
-                                  ElevatedButton.icon(
-                                    onPressed: () {
-                                      ScaffoldMessenger.of(context)
-                                          .showSnackBar(SnackBar(
-                                              content: Text(
-                                                  'Navigating to map...')));
-                                      Navigator.pop(context);
-                                    },
-                                    icon: Icon(
-                                      Icons.directions_rounded,
-                                    ),
-                                    label: Text(
-                                      'Locate',
-                                      style: GoogleFonts.montserrat(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.w600,
+                                  SizedBox(
+                                    width: width * 0.45,
+                                    child: CupertinoButton.filled(
+                                      borderRadius: BorderRadius.circular(30),
+                                      onPressed: () {
+                                        ScaffoldMessenger.of(context)
+                                            .showSnackBar(const SnackBar(
+                                                content: Text(
+                                                    'Navigating to map...')));
+                                        Navigator.pop(context);
+                                      },
+                                      child: Text(
+                                        'Locate',
+                                        overflow: TextOverflow.ellipsis,
+                                        style: GoogleFonts.montserrat(
+                                          fontSize: 15,
+                                          fontWeight: FontWeight.w600,
+                                        ),
                                       ),
                                     ),
                                   ),
-                                  ElevatedButton(
-                                    onPressed: () {
-                                      ScaffoldMessenger.of(context)
-                                          .showSnackBar(SnackBar(
-                                              content: Text(
-                                                  'Registering for camp...')));
-                                      Navigator.pop(context);
-                                    },
-                                    child: Text(
-                                      'Register',
-                                      style: GoogleFonts.montserrat(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.w600,
+                                  const Spacer(),
+                                  SizedBox(
+                                    width: width * 0.43,
+                                    child: CupertinoButton.filled(
+                                      borderRadius: BorderRadius.circular(30),
+                                      onPressed: () {
+                                        ScaffoldMessenger.of(context)
+                                            .showSnackBar(const SnackBar(
+                                                content: Text(
+                                                    'Registering for camp...')));
+                                        Navigator.pop(context);
+                                      },
+                                      child: Text(
+                                        'Register',
+                                        overflow: TextOverflow.ellipsis,
+                                        style: GoogleFonts.montserrat(
+                                          fontSize: 15,
+                                          fontWeight: FontWeight.w600,
+                                        ),
                                       ),
                                     ),
-                                  )
+                                  ),
                                 ],
                               )
                             ],

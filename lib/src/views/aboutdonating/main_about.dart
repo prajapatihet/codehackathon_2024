@@ -7,20 +7,21 @@ class MainAboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
-    var width = MediaQuery.of(context).size.width;
+    // var width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(
             padding:
-                const EdgeInsets.only(top: 12, left: 15, right: 15, bottom: 12),
+                const EdgeInsets.only(top: 20, left: 15, right: 15, bottom: 12),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   'About Blood Donation',
                   textAlign: TextAlign.center,
                   style: GoogleFonts.montserrat(
-                    fontSize: 24,
+                    fontSize: 26,
                     fontWeight: FontWeight.w700,
                   ),
                 ),
@@ -614,6 +615,9 @@ class MainAboutScreen extends StatelessWidget {
                           ),
                         ),
                       ],
+                    ),
+                    SizedBox(
+                      height: height * 0.03,
                     ),
                   ],
                 )
