@@ -17,7 +17,7 @@ class HomeCardConst extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
-    var height = MediaQuery.of(context).size.height;
+    //var height = MediaQuery.of(context).size.height;
     return Padding(
       padding: const EdgeInsets.all(10.0),
       child: SizedBox(
