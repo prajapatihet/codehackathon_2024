@@ -1,5 +1,4 @@
-import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
-import 'package:connectblooddonor/src/views/forgot_password/reset_password.dart';
+import 'package:donorconnect/src/utils/routes/route_constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -27,7 +26,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
-    var width = MediaQuery.of(context).size.width;
+    // var width = MediaQuery.of(context).size.width;
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: SafeArea(
@@ -163,7 +162,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
       decoration: InputDecoration(
         labelText: text,
         labelStyle: GoogleFonts.montserrat(
-            color: Color.fromARGB(255, 144, 140, 227),
+            color: const Color.fromARGB(255, 144, 140, 227),
             fontWeight: FontWeight.w400,
             fontSize: 15),
         isCollapsed: true,

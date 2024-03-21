@@ -1,5 +1,5 @@
-import 'package:connectblooddonor/src/consts/camp_info_card.dart';
-import 'package:connectblooddonor/src/consts/event_info_card.dart';
+import 'package:donorconnect/src/consts/camp_info_card.dart';
+import 'package:donorconnect/src/consts/event_info_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

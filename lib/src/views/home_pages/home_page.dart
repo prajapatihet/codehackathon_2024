@@ -1,6 +1,6 @@
-import 'package:connectblooddonor/src/consts/home_card.dart';
-import 'package:connectblooddonor/src/consts/widgets/home_card_form.dart';
-import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
+import 'package:donorconnect/src/consts/home_card.dart';
+import 'package:donorconnect/src/consts/widgets/home_card_form.dart';
+import 'package:donorconnect/src/utils/routes/route_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
-    var width = MediaQuery.of(context).size.width;
+    // var width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   HomeCardConst(
                     title: 'Donate',
-                    col: Color.fromARGB(255, 255, 122, 122),
+                    col: const Color.fromARGB(255, 255, 122, 122),
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Wnat to Donate')));
@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   HomeCardConst(
                     title: 'Required',
-                    col: Color.fromARGB(255, 167, 165, 252),
+                    col: const Color.fromARGB(255, 167, 165, 252),
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Make a Required')));

@@ -1,16 +1,16 @@
-import 'package:connectblooddonor/src/utils/routes/page_transtion.dart';
-import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
-import 'package:connectblooddonor/src/views/aboutdonating/main_about.dart';
-import 'package:connectblooddonor/src/views/forgot_password/forgotpassword.dart';
-import 'package:connectblooddonor/src/views/forgot_password/reset_password.dart';
-import 'package:connectblooddonor/src/views/getstart/onboarding.dart';
-import 'package:connectblooddonor/src/views/home_pages/bloodbank/blood_bank.dart';
-import 'package:connectblooddonor/src/views/home_pages/filter/filter.dart';
-import 'package:connectblooddonor/src/views/login/login_screen.dart';
-import 'package:connectblooddonor/src/views/main_home/main_home.dart';
-import 'package:connectblooddonor/src/views/profile_pages/termcondition.dart';
-import 'package:connectblooddonor/src/views/signup/more_info.dart';
-import 'package:connectblooddonor/src/views/signup/sign_up_screen.dart';
+import 'package:donorconnect/src/utils/routes/page_transtion.dart';
+import 'package:donorconnect/src/utils/routes/route_constant.dart';
+import 'package:donorconnect/src/views/aboutdonating/main_about.dart';
+import 'package:donorconnect/src/views/forgot_password/forgotpassword.dart';
+import 'package:donorconnect/src/views/forgot_password/reset_password.dart';
+import 'package:donorconnect/src/views/getstart/onboarding.dart';
+import 'package:donorconnect/src/views/home_pages/bloodbank/blood_bank.dart';
+import 'package:donorconnect/src/views/home_pages/filter/filter.dart';
+import 'package:donorconnect/src/views/login/login_screen.dart';
+import 'package:donorconnect/src/views/main_home/main_home.dart';
+import 'package:donorconnect/src/views/profile_pages/termcondition.dart';
+import 'package:donorconnect/src/views/signup/more_info.dart';
+import 'package:donorconnect/src/views/signup/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
 class Routers {

@@ -70,7 +70,7 @@ class EventInfoCard extends StatelessWidget {
                 onPressed: () {
                   showModalBottomSheet<void>(
                     context: context,
-                    shape: RoundedRectangleBorder(
+                    shape: const RoundedRectangleBorder(
                         borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(35),
                       topRight: Radius.circular(35),
@@ -137,7 +137,7 @@ class EventInfoCard extends StatelessWidget {
                                               Text('Navigating to map...')));
                                   Navigator.pop(context);
                                 },
-                                icon: Icon(
+                                icon: const Icon(
                                   Icons.directions_rounded,
                                   size: 32,
                                 ),

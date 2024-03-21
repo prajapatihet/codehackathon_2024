@@ -26,7 +26,7 @@ class HomeCard extends StatelessWidget {
         semanticContainer: true,
         clipBehavior: Clip.antiAliasWithSaveLayer,
         elevation: 0.5,
-        surfaceTintColor: Color.fromARGB(255, 255, 152, 145),
+        surfaceTintColor: const Color.fromARGB(255, 255, 152, 145),
         child: Padding(
           padding: const EdgeInsets.all(6.0),
           child: Column(

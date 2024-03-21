@@ -1,8 +1,6 @@
-import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
-import 'package:connectblooddonor/src/views/main_home/main_home.dart';
+import 'package:donorconnect/src/utils/routes/route_constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class UserMoreInfo extends StatefulWidget {
@@ -22,7 +20,7 @@ class _UserMoreInfoState extends State<UserMoreInfo> {
   final phoneController = TextEditingController();
   String groupValue = 'Male';
   bool isAvailable = false;
-  Gender? _gender = Gender.male;
+  // Gender? _gender = Gender.male;
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;

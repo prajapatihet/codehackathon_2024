@@ -1,7 +1,7 @@
-import 'package:connectblooddonor/src/views/home_pages/events_page.dart';
-import 'package:connectblooddonor/src/views/home_pages/home_page.dart';
-import 'package:connectblooddonor/src/views/home_pages/profile_page.dart';
-import 'package:connectblooddonor/src/views/home_pages/search_page.dart';
+import 'package:donorconnect/src/views/home_pages/events_page.dart';
+import 'package:donorconnect/src/views/home_pages/home_page.dart';
+import 'package:donorconnect/src/views/home_pages/profile_page.dart';
+import 'package:donorconnect/src/views/home_pages/search_page.dart';
 import 'package:get/get.dart';
 
 class NavigationController extends GetxController {

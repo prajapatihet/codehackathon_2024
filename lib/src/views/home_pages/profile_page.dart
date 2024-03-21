@@ -1,6 +1,5 @@
-import 'package:connectblooddonor/src/consts/profile_option.dart';
-import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
-import 'package:connectblooddonor/src/views/profile_pages/termcondition.dart';
+import 'package:donorconnect/src/consts/profile_option.dart';
+import 'package:donorconnect/src/utils/routes/route_constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -10,7 +9,7 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var rating = '5846';
+    // var rating = '5846';
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
     return Scaffold(

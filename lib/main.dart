@@ -1,5 +1,5 @@
-import 'package:connectblooddonor/src/utils/routes/routes.dart';
-import 'package:connectblooddonor/src/views/getstart/onboarding.dart';
+import 'package:donorconnect/src/utils/routes/routes.dart';
+import 'package:donorconnect/src/views/getstart/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
