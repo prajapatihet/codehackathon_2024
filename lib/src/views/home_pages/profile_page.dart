@@ -1,4 +1,5 @@
 import 'package:connectblooddonor/src/consts/profile_option.dart';
+import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
 import 'package:connectblooddonor/src/views/profile_pages/termcondition.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -100,10 +101,7 @@ class ProfilePage extends StatelessWidget {
                   option: 'Data and Privacy',
                   icon: const Icon(Icons.privacy_tip),
                   onPressed: () {
-                    Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const TnCScreen()));
+                    Navigator.pushNamed(context, RouterConstant.termcondition);
                   },
                 ),
                 Options(

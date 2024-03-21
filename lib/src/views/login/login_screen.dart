@@ -1,4 +1,5 @@
 import 'package:connectblooddonor/src/utils/routes/route_constant.dart';
+import 'package:connectblooddonor/src/views/forgot_password/forgotpassword.dart';
 import 'package:connectblooddonor/src/views/main_home/main_home.dart';
 import 'package:connectblooddonor/src/views/signup/sign_up_screen.dart';
 import 'package:flutter/cupertino.dart';
@@ -75,8 +76,7 @@ class _LogInScreenState extends State<LogInScreen> {
                 alignment: Alignment.centerRight,
                 child: InkWell(
                   onTap: () {
-                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-                        content: Text('Forgot Psssword Clicked')));
+                    Navigator.pushNamed(context, RouterConstant.forgotpassword);
                   },
                   child: Text(
                     'Forgot Password?',

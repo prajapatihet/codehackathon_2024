@@ -7,4 +7,7 @@ class RouterConstant {
   static const String bloodbanks = '/bloodbankScreen';
   static const String aboutdonate = '/knowaboutScreen';
   static const String filterdonor = '/filterdonorScreen';
+  static const String forgotpassword = '/forgotScreen';
+  static const String resetpassword = '/resetScreen';
+  static const String termcondition = '/termconditionScreen';
 }

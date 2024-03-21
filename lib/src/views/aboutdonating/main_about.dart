@@ -9,25 +9,28 @@ class MainAboutScreen extends StatelessWidget {
     var height = MediaQuery.of(context).size.height;
     // var width = MediaQuery.of(context).size.width;
     return Scaffold(
-      body: SingleChildScrollView(
-        child: SafeArea(
+      appBar: AppBar(
+        title: Text(
+          'About Blood Donation',
+          textAlign: TextAlign.center,
+          style: GoogleFonts.montserrat(
+            fontSize: 20,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        toolbarHeight: 60,
+        toolbarOpacity: 0.8,
+        automaticallyImplyLeading: false,
+        surfaceTintColor: Colors.transparent,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(
           child: Padding(
             padding:
                 const EdgeInsets.only(top: 20, left: 15, right: 15, bottom: 12),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  'About Blood Donation',
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.montserrat(
-                    fontSize: 26,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-                SizedBox(
-                  height: height * 0.02,
-                ),
                 Column(
                   children: [
                     RichText(

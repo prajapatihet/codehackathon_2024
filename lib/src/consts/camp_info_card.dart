@@ -154,7 +154,7 @@ class CampInfoCard extends StatelessWidget {
                                 children: [
                                   SizedBox(
                                     width: width * 0.45,
-                                    child: CupertinoButton.filled(
+                                    child: CupertinoButton(
                                       borderRadius: BorderRadius.circular(30),
                                       onPressed: () {
                                         ScaffoldMessenger.of(context)
@@ -167,7 +167,7 @@ class CampInfoCard extends StatelessWidget {
                                         'Locate',
                                         overflow: TextOverflow.ellipsis,
                                         style: GoogleFonts.montserrat(
-                                          fontSize: 15,
+                                          fontSize: 18,
                                           fontWeight: FontWeight.w600,
                                         ),
                                       ),
@@ -176,7 +176,7 @@ class CampInfoCard extends StatelessWidget {
                                   const Spacer(),
                                   SizedBox(
                                     width: width * 0.43,
-                                    child: CupertinoButton.filled(
+                                    child: CupertinoButton(
                                       borderRadius: BorderRadius.circular(30),
                                       onPressed: () {
                                         ScaffoldMessenger.of(context)
@@ -189,7 +189,7 @@ class CampInfoCard extends StatelessWidget {
                                         'Register',
                                         overflow: TextOverflow.ellipsis,
                                         style: GoogleFonts.montserrat(
-                                          fontSize: 15,
+                                          fontSize: 18,
                                           fontWeight: FontWeight.w600,
                                         ),
                                       ),

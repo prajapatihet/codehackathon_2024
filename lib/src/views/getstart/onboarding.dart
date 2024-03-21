@@ -55,7 +55,7 @@ class OnBoardingScreen extends StatelessWidget {
               CupertinoButton.filled(
                 borderRadius: BorderRadius.circular(30),
                 onPressed: () {
-                  Navigator.pushNamed(context, RouterConstant.login);
+                  Navigator.pushReplacementNamed(context, RouterConstant.login);
                 },
                 child: Text(
                   'Get Started',

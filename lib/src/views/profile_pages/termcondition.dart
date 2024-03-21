@@ -9,11 +9,10 @@ class TnCScreen extends StatelessWidget {
     var width = MediaQuery.of(context).size.width;
     var height = MediaQuery.of(context).size.height;
     return Scaffold(
-      body: SingleChildScrollView(
-        child: SafeArea(
+      body: SafeArea(
+        child: SingleChildScrollView(
           child: Padding(
-            padding:
-                const EdgeInsets.only(top: 20, left: 15, right: 15, bottom: 12),
+            padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 12),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
