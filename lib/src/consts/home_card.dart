@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeCard extends StatelessWidget {
-  String title, description, button, image;
-  VoidCallback? onPressed;
-  Icon icon;
-  HomeCard({
+  final String title, description, button, image;
+  final VoidCallback? onPressed;
+  final Icon icon;
+  const HomeCard({
     super.key,
     required this.title,
     required this.description,

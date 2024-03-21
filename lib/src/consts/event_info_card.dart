@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class EventInfoCard extends StatelessWidget {
-  String title, date, time, location;
-  VoidCallback? onPressed;
-  EventInfoCard({
+  final String title, date, time, location;
+  final VoidCallback? onPressed;
+  const EventInfoCard({
     super.key,
     required this.title,
     required this.date,

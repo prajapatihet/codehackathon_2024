@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeCardConst extends StatelessWidget {
-  String title;
-  VoidCallback onPressed;
-  Color col;
+  final String title;
+  final VoidCallback onPressed;
+  final Color col;
 
-  HomeCardConst({
+  const HomeCardConst({
     super.key,
     required this.title,
     required this.onPressed,

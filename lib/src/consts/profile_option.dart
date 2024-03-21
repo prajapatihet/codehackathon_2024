@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Options extends StatelessWidget {
-  String option;
-  VoidCallback onPressed;
-  Icon icon;
-  Options({
+  final String option;
+  final VoidCallback onPressed;
+  final Icon icon;
+  const Options({
     super.key,
     required this.option,
     required this.icon,

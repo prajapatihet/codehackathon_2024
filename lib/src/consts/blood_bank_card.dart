@@ -3,10 +3,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class BloodBankCard extends StatelessWidget {
-  String name, location, time;
-  String long, lat;
+  final String name, location, time;
+  final String long, lat;
 
-  BloodBankCard({
+  const BloodBankCard({
     super.key,
     required this.name,
     required this.location,

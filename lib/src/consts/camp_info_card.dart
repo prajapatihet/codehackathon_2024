@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CampInfoCard extends StatelessWidget {
-  String title, date, time, venue, description;
-  VoidCallback? onPressed;
-  CampInfoCard({
+  final String title, date, time, venue, description;
+  final VoidCallback? onPressed;
+  const CampInfoCard({
     super.key,
     required this.title,
     required this.date,

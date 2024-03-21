@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DonorInfoCard extends StatelessWidget {
-  String name, bloodGroup, location, gen;
-  bool isAvailable;
-  VoidCallback? onPressed;
+  final String name, bloodGroup, location, gen;
+  final bool isAvailable;
+  final VoidCallback? onPressed;
 
-  DonorInfoCard({
+  const DonorInfoCard({
     super.key,
     required this.name,
     required this.bloodGroup,
