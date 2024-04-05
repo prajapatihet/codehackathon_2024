@@ -19,6 +19,7 @@ class _MainHomeScreenState extends State<MainHomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var height = MediaQuery.of(context).size.height;
     final controller = Get.put(NavigationController());
     return WillPopScope(
       child: Scaffold(
@@ -58,8 +59,11 @@ class _MainHomeScreenState extends State<MainHomeScreen> {
           context: context,
           builder: (context) {
             return AlertDialog(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
               title: const Text('Exit'),
-              content: const Text('Are you sure you want to exit the app?'),
+              content: const Text('Are you sure want to exit the app?'),
               actions: [
                 TextButton(
                   onPressed: () {

@@ -106,7 +106,9 @@ class ProfilePage extends StatelessWidget {
                 Options(
                   option: 'Give Feedback',
                   icon: const Icon(Icons.feedback_sharp),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, RouterConstant.feedbackform);
+                  },
                 ),
                 SizedBox(height: height * 0.05),
                 CupertinoButton.filled(

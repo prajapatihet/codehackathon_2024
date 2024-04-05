@@ -44,16 +44,14 @@ class _HomePageState extends State<HomePage> {
                     title: 'Donate',
                     col: const Color.fromARGB(255, 255, 122, 122),
                     onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Wnat to Donate')));
+                      Navigator.pushNamed(context, RouterConstant.donateform);
                     },
                   ),
                   HomeCardConst(
                     title: 'Required',
                     col: const Color.fromARGB(255, 167, 165, 252),
                     onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Make a Required')));
+                      Navigator.pushNamed(context, RouterConstant.requestform);
                     },
                   ),
                   // ElevatedButton.icon(

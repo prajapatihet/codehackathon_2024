@@ -10,4 +10,7 @@ class RouterConstant {
   static const String forgotpassword = '/forgotScreen';
   static const String resetpassword = '/resetScreen';
   static const String termcondition = '/termconditionScreen';
+  static const String donateform = '/donateFormScreen';
+  static const String requestform = '/requestFormScreen';
+  static const String feedbackform = '/feedbackFormScreen';
 }

@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class DonateForm extends StatelessWidget {
-  const DonateForm({super.key});
+class RequestForm extends StatelessWidget {
+  const RequestForm({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class DonateForm extends StatelessWidget {
                   height: height * 0.1,
                 ),
                 Text(
-                  'Donate Blood',
+                  "Request Form",
                   style: GoogleFonts.montserrat(
                     fontSize: 24,
                     fontWeight: FontWeight.w700,
@@ -55,9 +55,9 @@ class DonateForm extends StatelessWidget {
                   height: height * 0.015,
                 ),
                 textfield(
-                  icon: const Icon(Icons.update),
-                  text: 'Enter your Age',
-                  inputType: TextInputType.number,
+                  icon: const Icon(Icons.report),
+                  text: 'Urgent Required',
+                  inputType: TextInputType.text,
                 ),
                 SizedBox(
                   height: height * 0.05,
@@ -67,12 +67,12 @@ class DonateForm extends StatelessWidget {
                   child: CupertinoButton.filled(
                     borderRadius: BorderRadius.circular(30),
                     onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-                          content: Text('Thank you for showing interest...')));
+                      ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text('Request Send...')));
                       Navigator.pop(context);
                     },
                     child: Text(
-                      'Submit',
+                      'Request',
                       style: GoogleFonts.montserrat(
                         fontSize: 14,
                         fontWeight: FontWeight.w600,

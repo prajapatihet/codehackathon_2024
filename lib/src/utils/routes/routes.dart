@@ -3,6 +3,9 @@ import 'package:donorconnect/src/utils/routes/route_constant.dart';
 import 'package:donorconnect/src/views/aboutdonating/main_about.dart';
 import 'package:donorconnect/src/views/forgot_password/forgotpassword.dart';
 import 'package:donorconnect/src/views/forgot_password/reset_password.dart';
+import 'package:donorconnect/src/views/form/donate.dart';
+import 'package:donorconnect/src/views/form/request.dart';
+import 'package:donorconnect/src/views/form/feedback.dart';
 import 'package:donorconnect/src/views/getstart/onboarding.dart';
 import 'package:donorconnect/src/views/home_pages/bloodbank/blood_bank.dart';
 import 'package:donorconnect/src/views/home_pages/filter/filter.dart';
@@ -38,6 +41,12 @@ class Routers {
         return slidePageRoute(const ResetPasswordScreen());
       case RouterConstant.termcondition:
         return slidePageRoute(const TnCScreen());
+      case RouterConstant.donateform:
+        return slidePageRoute(const DonateForm());
+      case RouterConstant.requestform:
+        return slidePageRoute(const RequestForm());
+      case RouterConstant.feedbackform:
+        return slidePageRoute(const FeedbackForm());
       default:
         return MaterialPageRoute(
           builder: (context) => const Scaffold(
