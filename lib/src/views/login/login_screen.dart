@@ -162,7 +162,7 @@ class _LogInScreenState extends State<LogInScreen> {
       decoration: InputDecoration(
         labelText: text,
         labelStyle: GoogleFonts.montserrat(
-            color: Color.fromARGB(255, 144, 140, 227),
+            color: const Color.fromARGB(255, 144, 140, 227),
             fontWeight: FontWeight.w400,
             fontSize: 15),
         isCollapsed: true,

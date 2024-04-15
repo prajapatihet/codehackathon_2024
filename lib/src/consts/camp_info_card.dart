@@ -88,7 +88,7 @@ class CampInfoCard extends StatelessWidget {
                       topRight: Radius.circular(35),
                     )),
                     builder: (BuildContext context) {
-                      return Container(
+                      return SizedBox(
                         width: width,
                         height: height * 0.35,
                         child: Padding(

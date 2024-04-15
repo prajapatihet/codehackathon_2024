@@ -95,13 +95,13 @@ class _EventsPageState extends State<EventsPage> {
                     ),
                   ),
                 ),
-                EventInfoCard(
+                const EventInfoCard(
                   title: 'Blood Donation Drive',
                   date: 'March 1, 2024',
                   time: '9:00 AM - 3:00 PM',
                   location: 'City Hospital',
                 ),
-                EventInfoCard(
+                const EventInfoCard(
                   title: 'Blood Donation Drive',
                   date: 'March 8, 2024',
                   time: '9:00 AM - 12:00 PM',
@@ -121,7 +121,7 @@ class _EventsPageState extends State<EventsPage> {
                     ),
                   ),
                 ),
-                CampInfoCard(
+                const CampInfoCard(
                   title: 'Mobile Blood Donation Camp',
                   date: 'February 28, 2024',
                   time: '10:00 AM - 6:00 PM',
@@ -129,7 +129,7 @@ class _EventsPageState extends State<EventsPage> {
                   description:
                       'Join us for a mobile blood donation camp to save lives!',
                 ),
-                CampInfoCard(
+                const CampInfoCard(
                   title: 'Medical Check-up Camp',
                   date: 'March 13, 2024',
                   time: '10:00 AM - 1:00 PM',
