@@ -12,18 +12,17 @@ class OnBoardingScreen extends StatelessWidget {
     var width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
                 'Welcome to our Application',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.montserrat(
-                  fontSize: 26,
+                  fontSize: 27,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1,
                 ),
@@ -35,10 +34,10 @@ class OnBoardingScreen extends StatelessWidget {
                 'Start sharing your life-saving moments and\n find nearby donors!',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.roboto(
-                  fontSize: 13,
+                  fontSize: 14,
                   fontWeight: FontWeight.w500,
                   letterSpacing: 0.5,
-                  color: Colors.black.withOpacity(0.8),
+                  color: Colors.black.withOpacity(0.5),
                 ),
               ),
               SizedBox(
@@ -46,8 +45,8 @@ class OnBoardingScreen extends StatelessWidget {
               ),
               Image.asset(
                 'assets/images/onboarding.png',
-                width: width * 0.6,
-                height: height * 0.4,
+                width: width * 0.5,
+                height: height * 0.3,
               ),
               SizedBox(
                 height: height * 0.05,
